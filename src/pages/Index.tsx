@@ -5,7 +5,7 @@ import MissionMotto from "@/components/MissionMotto";
 import StatsSection from "@/components/StatsSection";
 import VirtualTour from "@/components/VirtualTour";
 import LatestPosts from "@/components/LatestPosts";
-import LifeAtCCH from "@/components/LifeAtCCH";
+import LifeAtBCS from "@/components/LifeAtBCS";
 import JoinCTA from "@/components/JoinCTA";
 import InstructorsSection from "@/components/InstructorsSection";
 import AlumniSection from "@/components/AlumniSection";
@@ -24,7 +24,7 @@ const Index = () => {
       <VirtualTour />
       <LatestPosts />
       <MissionMotto />
-      <LifeAtCCH />
+      <LifeAtBCS />
       <JoinCTA />
       <InstructorsSection />
       <AlumniSection />

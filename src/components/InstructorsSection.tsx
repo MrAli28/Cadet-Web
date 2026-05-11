@@ -16,8 +16,8 @@ const instructors = [
 const InstructorsSection = () => {
   return (
     <section className="py-20 bg-background">
-      <div className="cch-container">
-        <h2 className="cch-section-title text-center mb-12">
+      <div className="bcs-container">
+        <h2 className="bcs-section-title text-center mb-12">
           <span className="font-bold">Leadership at Bahar Cadet School</span>
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
@@ -31,9 +31,9 @@ const InstructorsSection = () => {
                 />
               </div>
               <div className="p-5">
-                <h3 className="text-lg font-bold text-cch-dark-text font-lufga">{inst.name}</h3>
-                <p className="text-sm text-cch-green mt-1 font-semibold">{inst.role}</p>
-                <p className="text-sm text-cch-body-text mt-3 leading-relaxed">{inst.bio}</p>
+                <h3 className="text-lg font-bold text-bcs-dark-text font-lufga">{inst.name}</h3>
+                <p className="text-sm text-bcs-green mt-1 font-semibold">{inst.role}</p>
+                <p className="text-sm text-bcs-body-text mt-3 leading-relaxed">{inst.bio}</p>
               </div>
             </div>
           ))}

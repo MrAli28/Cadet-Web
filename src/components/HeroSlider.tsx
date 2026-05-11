@@ -2,20 +2,26 @@ import { useState, useEffect, useRef } from "react";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 
 const images = [
-  "/images/faculty-banner.jpg",
-  "/images/gallery-1.jpg",
-  "/images/gallery-2.jpg",
-  "/images/gallery-3.jpg",
-  "/images/gallery-4.jpg",
-  "/images/gallery-5.jpg",
-  "/images/gallery-6.jpg",
-  "/images/group-picture.jpg",
-  "/images/post-1.jpg",
-  "/images/post-2.jpg",
+  "/images/hero1.jpeg",
+  "/images/hero2.JPG",
+  "/images/hero3.JPG",
+  "/images/hero4.JPG",
+  "/images/hero5.jpeg",
+  "/images/hero6.JPG",
+  "/images/hero7.jpeg",
+  "/images/hero8.JPG",
+  "/images/hero9.JPG",
 ];
 
 const slides = [images[images.length - 1], ...images, images[0]];
 const total = slides.length;
+
+const getImageClass = (src: string) =>
+  src === "/images/hero1.jpeg"
+    ? "object-[center_28%]"
+    : src === "/images/hero7.jpeg"
+      ? "object-[center_36%]"
+      : "object-center";
 
 const HeroSlider = () => {
   const [current, setCurrent] = useState(1);
@@ -99,7 +105,11 @@ const HeroSlider = () => {
       >
         {slides.map((src, i) => (
           <div key={i} className="slider-slide relative h-full">
-            <img src={src} alt={`Slide ${i}`} className="w-full h-full object-cover" />
+            <img
+              src={src}
+              alt={`Slide ${i}`}
+              className={`w-full h-full object-cover ${getImageClass(src)}`}
+            />
           </div>
         ))}
       </div>

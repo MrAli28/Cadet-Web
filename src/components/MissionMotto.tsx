@@ -3,7 +3,7 @@ import { Mountain, Award } from "lucide-react";
 const MissionMotto = () => {
   return (
     <section className="py-16 bg-[linear-gradient(90deg,#FFCC00_0%,#F5D161_100%)]">
-      <div className="cch-container">
+      <div className="bcs-container">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-start mb-10">
 
           {/* Our Vision */}

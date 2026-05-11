@@ -1,23 +1,23 @@
 const alumniImages = [
-  "https://cch.edu.pk/wp-content/uploads/2021/04/Alunmni-05-1.png",
-  "https://cch.edu.pk/wp-content/uploads/2021/04/Alunmni-06-1.png",
-  "https://cch.edu.pk/wp-content/uploads/2021/04/Alunmni-07-1.png",
-  "https://cch.edu.pk/wp-content/uploads/2021/04/Alunmni-08-1.png",
-  "https://cch.edu.pk/wp-content/uploads/2021/04/Alunmni-09-1.png",
-  "https://cch.edu.pk/wp-content/uploads/2021/04/Alunmni-10-1.png",
-  "https://cch.edu.pk/wp-content/uploads/2021/04/Alunmni-12-1.png",
-  "https://cch.edu.pk/wp-content/uploads/2021/04/Alunmni-13-1.png",
-  "https://cch.edu.pk/wp-content/uploads/2021/04/Alunmni-03-1.png",
-  "https://cch.edu.pk/wp-content/uploads/2021/04/Alunmni-04-1.png",
-  "https://cch.edu.pk/wp-content/uploads/2021/04/Alunmni-01-1.png",
-  "https://cch.edu.pk/wp-content/uploads/2021/04/Alunmni-02-1.png",
+  "https://bcs.edu.pk/wp-content/uploads/2021/04/Alunmni-05-1.png",
+  "https://bcs.edu.pk/wp-content/uploads/2021/04/Alunmni-06-1.png",
+  "https://bcs.edu.pk/wp-content/uploads/2021/04/Alunmni-07-1.png",
+  "https://bcs.edu.pk/wp-content/uploads/2021/04/Alunmni-08-1.png",
+  "https://bcs.edu.pk/wp-content/uploads/2021/04/Alunmni-09-1.png",
+  "https://bcs.edu.pk/wp-content/uploads/2021/04/Alunmni-10-1.png",
+  "https://bcs.edu.pk/wp-content/uploads/2021/04/Alunmni-12-1.png",
+  "https://bcs.edu.pk/wp-content/uploads/2021/04/Alunmni-13-1.png",
+  "https://bcs.edu.pk/wp-content/uploads/2021/04/Alunmni-03-1.png",
+  "https://bcs.edu.pk/wp-content/uploads/2021/04/Alunmni-04-1.png",
+  "https://bcs.edu.pk/wp-content/uploads/2021/04/Alunmni-01-1.png",
+  "https://bcs.edu.pk/wp-content/uploads/2021/04/Alunmni-02-1.png",
 ];
 
 const AlumniSection = () => {
   return (
-    <section className="py-20 bg-cch-light-gray">
-      <div className="cch-container">
-        <h2 className="cch-section-title text-center mb-12">
+    <section className="py-20 bg-bcs-light-gray">
+      <div className="bcs-container">
+        <h2 className="bcs-section-title text-center mb-12">
           <span className="font-bold">Prominent Alumnus</span>
         </h2>
         <div className="overflow-hidden">
@@ -34,7 +34,7 @@ const AlumniSection = () => {
           </div>
         </div>
         <div className="text-center mt-10">
-          <a href="#" className="cch-btn-primary">
+          <a href="#" className="bcs-btn-primary">
             View All Alumni
           </a>
         </div>

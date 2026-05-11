@@ -47,14 +47,14 @@ const StatsSection = () => {
       {/* Dark navy overlay */}
       <div className="absolute inset-0 bg-[#174604] opacity-90" />
 
-      <div className="cch-container relative z-10">
+      <div className="bcs-container relative z-10">
         {/* Stats row */}
         <div className="grid grid-cols-2 md:grid-cols-4 gap-0 mb-12">
           {stats.map((stat, i) => (
             <div key={i} className="flex items-center gap-4 px-6">
               <div className="text-white font-bold font-lufga text-7xl leading-none shrink-0">
                 <CountUp end={stat.value} suffix={stat.suffix} />
-                <div className="mt-2 w-full h-[3px] bg-cch-gold" />
+                <div className="mt-2 w-full h-[3px] bg-bcs-gold" />
               </div>
               <div>
                 <p className="text-white text-lg leading-snug">{stat.label}</p>
@@ -67,7 +67,7 @@ const StatsSection = () => {
         <div className="text-center">
           <a
             href="#"
-            className="inline-block bg-cch-gold text-cch-dark-text px-10 py-3 text-sm font-bold uppercase tracking-wider hover:brightness-95 transition-all duration-300"
+            className="inline-block bg-bcs-gold text-bcs-dark-text px-10 py-3 text-sm font-bold uppercase tracking-wider hover:brightness-95 transition-all duration-300"
           >
             School Profile
           </a>

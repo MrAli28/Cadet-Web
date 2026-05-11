@@ -19,11 +19,11 @@ const PageBanner = ({
   const backgroundClass = backgroundClassMap[backgroundImage] ?? backgroundClassMap["/images/faculty-banner.jpg"];
 
   return (
-    <section className="relative h-[260px] md:h-[320px] bg-cch-dark-navy overflow-hidden">
+    <section className="relative h-[260px] md:h-[320px] bg-bcs-dark-navy overflow-hidden">
       <div className={`absolute inset-0 ${backgroundClass} bg-cover bg-center opacity-35`} />
-      <div className="absolute inset-0 bg-gradient-to-r from-cch-dark-navy/90 to-cch-navy/65" />
+      <div className="absolute inset-0 bg-gradient-to-r from-bcs-dark-navy/90 to-bcs-navy/65" />
 
-      <div className="relative z-10 cch-container h-full flex flex-col justify-center">
+      <div className="relative z-10 bcs-container h-full flex flex-col justify-center">
         <h1 className="text-3xl md:text-5xl font-bold text-white font-lufga uppercase tracking-wide">{title}</h1>
         {subtitle ? (
           <p className="text-white/85 text-sm md:text-base mt-3 max-w-3xl leading-relaxed">{subtitle}</p>

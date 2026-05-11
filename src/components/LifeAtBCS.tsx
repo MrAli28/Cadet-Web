@@ -11,17 +11,17 @@ const galleryImages = [
   "/images/gallery-6.jpg",
 ];
 
-const LifeAtCCH = () => {
+const LifeAtBCS = () => {
   const [activeCategory, setActiveCategory] = useState("ALL");
 
   return (
     <section className="py-20 bg-background">
-      <div className="cch-container">
+      <div className="bcs-container">
         <div className="flex items-start gap-8 mb-10">
           <img src="/images/our-mission.png" alt="" className="w-16 h-16 hidden md:block" />
           <div>
-            <h2 className="cch-section-title mb-4">Life at BCS Cadet School</h2>
-            <p className="text-cch-body-text text-sm leading-relaxed max-w-3xl">
+            <h2 className="bcs-section-title mb-4">Life at BCS Cadet School</h2>
+            <p className="text-bcs-body-text text-sm leading-relaxed max-w-3xl">
               Life at BCS combines academic focus, physical training, and character building in a disciplined environment.
               Students are guided to grow with confidence, patriotism, teamwork, and leadership so they are ready for
               the challenges of military college entrance and future service.
@@ -30,15 +30,15 @@ const LifeAtCCH = () => {
         </div>
 
         <div className="flex flex-wrap gap-3 mb-8">
-          <span className="text-sm text-cch-body-text font-semibold mr-2">Filter Categories</span>
+          <span className="text-sm text-bcs-body-text font-semibold mr-2">Filter Categories</span>
           {categories.map((cat) => (
             <button
               key={cat}
               onClick={() => setActiveCategory(cat)}
               className={`text-xs font-semibold px-4 py-2 rounded-sm transition-colors ${
                 activeCategory === cat
-                  ? "bg-cch-green text-primary-foreground"
-                  : "bg-cch-light-gray text-cch-body-text hover:bg-cch-green hover:text-primary-foreground"
+                  ? "bg-bcs-green text-primary-foreground"
+                  : "bg-bcs-light-gray text-bcs-body-text hover:bg-bcs-green hover:text-primary-foreground"
               }`}
             >
               {cat}
@@ -62,4 +62,4 @@ const LifeAtCCH = () => {
   );
 };
 
-export default LifeAtCCH;
+export default LifeAtBCS;

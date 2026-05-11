@@ -9,13 +9,13 @@ const Navbar = () => {
   return (
     <>
       <nav className="bg-background shadow-md sticky top-0 z-50">
-        <div className="cch-container flex items-center justify-between py-3">
+        <div className="bcs-container flex items-center justify-between py-3">
           <a href="/" className="flex items-center gap-3">
             <img src="/images/logo.png" alt="BCS Cadet School" className="h-14 w-auto" />
             <div className="hidden sm:block">
-              <div className="text-sm font-bold text-cch-green font-lufga leading-tight">BCS</div>
-              <div className="text-sm font-bold text-cch-green font-lufga leading-tight">CADET SCHOOL</div>
-              <div className="text-[10px] text-cch-gray italic">Loyalty - Discipline - Leadership</div>
+              <div className="text-sm font-bold text-bcs-green font-lufga leading-tight">BCS</div>
+              <div className="text-sm font-bold text-bcs-green font-lufga leading-tight">CADET SCHOOL</div>
+              <div className="text-[10px] text-bcs-gray italic">Loyalty - Discipline - Leadership</div>
             </div>
           </a>
 
@@ -24,7 +24,7 @@ const Navbar = () => {
               <a
                 key={item.label}
                 href={item.href}
-                className="text-xs font-semibold text-foreground tracking-wide hover:text-cch-green transition-colors uppercase"
+                className="text-xs font-semibold text-foreground tracking-wide hover:text-bcs-green transition-colors uppercase"
               >
                 {item.label}
               </a>
@@ -37,7 +37,7 @@ const Navbar = () => {
                 onMouseEnter={() => setActiveDropdown(menu.label)}
                 onMouseLeave={() => setActiveDropdown(null)}
               >
-                <button className="inline-flex items-center gap-1 text-xs font-semibold text-foreground tracking-wide hover:text-cch-green transition-colors uppercase">
+                <button className="inline-flex items-center gap-1 text-xs font-semibold text-foreground tracking-wide hover:text-bcs-green transition-colors uppercase">
                   {menu.label}
                   <ChevronDown className="w-3.5 h-3.5" />
                 </button>
@@ -52,7 +52,7 @@ const Navbar = () => {
                         >
                           <a
                             href={link.href}
-                            className="block px-4 py-2 text-xs font-semibold uppercase tracking-wide text-foreground hover:text-cch-green hover:bg-gray-50 flex items-center justify-between"
+                            className="block px-4 py-2 text-xs font-semibold uppercase tracking-wide text-foreground hover:text-bcs-green hover:bg-gray-50 flex items-center justify-between"
                           >
                             {link.label}
                             {link.children && <ChevronRight className="w-3 h-3" />}
@@ -65,7 +65,7 @@ const Navbar = () => {
                                   <a
                                     key={child.label}
                                     href={child.href}
-                                    className="block px-4 py-2 text-xs font-semibold uppercase tracking-wide text-foreground hover:text-cch-green hover:bg-gray-50"
+                                    className="block px-4 py-2 text-xs font-semibold uppercase tracking-wide text-foreground hover:text-bcs-green hover:bg-gray-50"
                                   >
                                     {child.label}
                                   </a>
@@ -81,10 +81,10 @@ const Navbar = () => {
               </div>
             ))}
 
-            <button title="Search" className="text-foreground hover:text-cch-green transition-colors">
+            <button title="Search" className="text-foreground hover:text-bcs-green transition-colors">
               <Search className="w-4 h-4" />
             </button>
-            <button title="Menu" className="text-foreground hover:text-cch-green transition-colors">
+            <button title="Menu" className="text-foreground hover:text-bcs-green transition-colors">
               <Menu className="w-5 h-5" />
             </button>
           </div>
@@ -100,7 +100,7 @@ const Navbar = () => {
               <a
                 key={item.label}
                 href={item.href}
-                className="block py-2.5 text-sm font-semibold text-foreground hover:text-cch-green transition-colors uppercase"
+                className="block py-2.5 text-sm font-semibold text-foreground hover:text-bcs-green transition-colors uppercase"
               >
                 {item.label}
               </a>
@@ -109,7 +109,7 @@ const Navbar = () => {
             {navMegaMenus.map((menu) => (
               <div key={menu.label}>
                 <button
-                  className="w-full py-2.5 text-sm font-semibold text-foreground hover:text-cch-green transition-colors uppercase flex items-center justify-between"
+                  className="w-full py-2.5 text-sm font-semibold text-foreground hover:text-bcs-green transition-colors uppercase flex items-center justify-between"
                   onClick={() => setActiveDropdown(activeDropdown === menu.label ? null : menu.label)}
                 >
                   {menu.label}
@@ -122,7 +122,7 @@ const Navbar = () => {
                       <div key={link.label}>
                         <a
                           href={link.href}
-                          className="block py-2 text-sm font-semibold text-foreground hover:text-cch-green transition-colors uppercase"
+                          className="block py-2 text-sm font-semibold text-foreground hover:text-bcs-green transition-colors uppercase"
                         >
                           {link.label}
                         </a>
@@ -132,7 +132,7 @@ const Navbar = () => {
                               <a
                                 key={child.label}
                                 href={child.href}
-                                className="block py-2 text-sm font-semibold text-foreground hover:text-cch-green transition-colors uppercase"
+                                className="block py-2 text-sm font-semibold text-foreground hover:text-bcs-green transition-colors uppercase"
                               >
                                 {child.label}
                               </a>
@@ -148,12 +148,12 @@ const Navbar = () => {
 
             {navDropdownGroups.map((group) => (
               <div key={group.title} className="pt-2 border-t border-border/70">
-                <p className="text-[11px] uppercase tracking-wider font-bold text-cch-gray py-2">{group.title}</p>
+                <p className="text-[11px] uppercase tracking-wider font-bold text-bcs-gray py-2">{group.title}</p>
                 {group.links.map((link) => (
                   <a
                     key={link.label}
                     href={link.href}
-                    className="block py-2 text-sm font-semibold text-foreground hover:text-cch-green transition-colors uppercase"
+                    className="block py-2 text-sm font-semibold text-foreground hover:text-bcs-green transition-colors uppercase"
                   >
                     {link.label}
                   </a>

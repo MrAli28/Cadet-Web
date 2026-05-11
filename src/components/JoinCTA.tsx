@@ -15,10 +15,10 @@ const JoinCTA = () => {
     <section
       className="relative py-24 bg-[url('/images/group-picture.jpg')] bg-cover bg-center bg-fixed"
     >
-      <div className="cch-overlay" />
-      <div className="relative z-10 cch-container text-center">
+      <div className="bcs-overlay" />
+      <div className="relative z-10 bcs-container text-center">
         <h2 className="text-3xl md:text-4xl font-bold text-primary-foreground font-lufga mb-6">
-          Contact <span className="text-cch-gold">Bahar Cadet School</span>
+          Contact <span className="text-bcs-gold">Bahar Cadet School</span>
         </h2>
         <p className="text-primary-foreground/85 max-w-3xl mx-auto text-sm md:text-base leading-relaxed mb-8">
           We are committed to developing future leaders through disciplined education, physical training, and character
@@ -34,7 +34,7 @@ const JoinCTA = () => {
             </span>
           ))}
         </div>
-        <a href="#" className="cch-btn-outline">
+        <a href="#" className="bcs-btn-outline">
           Contact Us
         </a>
       </div>

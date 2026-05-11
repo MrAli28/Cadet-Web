@@ -2,8 +2,8 @@ import { Phone, Mail, MapPin } from "lucide-react";
 
 const Footer = () => {
   return (
-    <footer className="bg-cch-dark-navy text-primary-foreground">
-      <div className="cch-container py-12">
+    <footer className="bg-bcs-dark-navy text-primary-foreground">
+      <div className="bcs-container py-12">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div>
             <div className="flex items-center gap-3 mb-4">
@@ -21,11 +21,11 @@ const Footer = () => {
           <div>
             <h3 className="text-base font-bold font-lufga mb-4">Quick Links</h3>
             <ul className="space-y-2 text-sm text-primary-foreground/70">
-              <li><a href="#" className="hover:text-cch-green transition-colors">Admissions</a></li>
-              <li><a href="#" className="hover:text-cch-green transition-colors">Vision & Mission</a></li>
-              <li><a href="#" className="hover:text-cch-green transition-colors">Leadership</a></li>
-              <li><a href="#" className="hover:text-cch-green transition-colors">Why Choose BCS</a></li>
-              <li><a href="#" className="hover:text-cch-green transition-colors">Contact Us</a></li>
+              <li><a href="#" className="hover:text-bcs-green transition-colors">Admissions</a></li>
+              <li><a href="#" className="hover:text-bcs-green transition-colors">Vision & Mission</a></li>
+              <li><a href="#" className="hover:text-bcs-green transition-colors">Leadership</a></li>
+              <li><a href="#" className="hover:text-bcs-green transition-colors">Why Choose BCS</a></li>
+              <li><a href="#" className="hover:text-bcs-green transition-colors">Contact Us</a></li>
             </ul>
           </div>
 
@@ -43,15 +43,15 @@ const Footer = () => {
             <h3 className="text-base font-bold font-lufga mb-4">Contact Info</h3>
             <div className="space-y-3 text-sm text-primary-foreground/70">
               <div className="flex items-center gap-2">
-                <Phone className="w-4 h-4 text-cch-green flex-shrink-0" />
+                <Phone className="w-4 h-4 text-bcs-green flex-shrink-0" />
                 <span>Contact our admissions office for updated helpline numbers.</span>
               </div>
               <div className="flex items-center gap-2">
-                <Mail className="w-4 h-4 text-cch-green flex-shrink-0" />
+                <Mail className="w-4 h-4 text-bcs-green flex-shrink-0" />
                 <span>Official email details are available at the campus office.</span>
               </div>
               <div className="flex items-start gap-2">
-                <MapPin className="w-4 h-4 text-cch-green flex-shrink-0 mt-0.5" />
+                <MapPin className="w-4 h-4 text-bcs-green flex-shrink-0 mt-0.5" />
                 <span>Bahar Cadet School (BCS)</span>
               </div>
             </div>
@@ -59,7 +59,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="border-t border-primary-foreground/10 py-4">
-        <div className="cch-container text-center text-xs text-primary-foreground/50">
+        <div className="bcs-container text-center text-xs text-primary-foreground/50">
           © 2026 BCS Cadet School. All Rights Reserved.
         </div>
       </div>

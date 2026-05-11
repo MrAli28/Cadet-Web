@@ -15,23 +15,23 @@ export const infoPages: Record<string, InfoPageContent> = {
     title: "Foreword by the Principal",
     subtitle: "Brig Nasir Saeed Khattak (Retd), SI(M) – Principal",
     overview:
-      "Established in 1954 as the first institution of its kind in Pakistan, Cadet College Hasanabdal has set the bar for high-quality boarding schools for boys.",
+      "Established in 1954 as the first institution of its kind in Pakistan, Bahar Cadet School has set the bar for high-quality boarding schools for boys.",
     sectionIntro:
-      "Based on the British Public School pattern with a highly regimented and demanding atmosphere, CCH aims at training young men to join the armed forces of Pakistan as well as other disciplines. We focus on year-round, holistic, and balanced curricular and wider curriculum activities with emphasis on leadership training spanning the spectrum. The objectives of academic excellence, character development, personality shaping, inculcating universal values, and citizenship are kept foremost as core principles in shaping our students.\n\nThe outcome of this environment during these impactful years has brought our students to consistently rise to the top and exhibit excellence as second nature. It is for this reason that CCH claims to be \"shaping excellence\" as its creed.\n\nOver the past seven decades, our alumni have not only made impactful contributions to the national mainstream but have also crossed international boundaries and are now playing significant roles at the global level. Keeping pace with modern imperatives, CCH is well on its way to establishing itself as a globally-competitive international school.\n\nOur aim is to shape our cohorts towards becoming global leaders in their chosen fields of influence. Understanding the complexity of the global village, we encourage our students to venture beyond national boundaries and partake in the cosmopolitan, interconnected world. It is with much humility and pride that we claim the sobriquet of \"Second to None\".",
+      "Based on the British Public School pattern with a highly regimented and demanding atmosphere, BCS aims at training young men to join the armed forces of Pakistan as well as other disciplines. We focus on year-round, holistic, and balanced curricular and wider curriculum activities with emphasis on leadership training spanning the spectrum. The objectives of academic excellence, character development, personality shaping, inculcating universal values, and citizenship are kept foremost as core principles in shaping our students.\n\nThe outcome of this environment during these impactful years has brought our students to consistently rise to the top and exhibit excellence as second nature. It is for this reason that BCS claims to be \"shaping excellence\" as its creed.\n\nOver the past seven decades, our alumni have not only made impactful contributions to the national mainstream but have also crossed international boundaries and are now playing significant roles at the global level. Keeping pace with modern imperatives, BCS is well on its way to establishing itself as a globally-competitive international school.\n\nOur aim is to shape our cohorts towards becoming global leaders in their chosen fields of influence. Understanding the complexity of the global village, we encourage our students to venture beyond national boundaries and partake in the cosmopolitan, interconnected world. It is with much humility and pride that we claim the sobriquet of \"Second to None\".",
     highlights: ["Holistic Development", "Leadership Training", "Global Outlook"],
     points: [
       "Rigorous academics combined with structured character building and discipline.",
       "Continuous mentoring and wider-curriculum activities build confidence, integrity, and service-oriented citizenship.",
       "Preparation for leadership roles in both military and civilian life with an international outlook.",
     ],
-    ctaLabel: "Overview of CCH",
-    ctaHref: "/info/overview-of-cch",
+    ctaLabel: "Overview of BCS",
+    ctaHref: "/info/overview-of-bcs",
   },
   "aim-objective": {
     title: "Aim & Objective",
     subtitle: "Institutional aims and core objectives.",
     overview:
-      "To cultivate intellectually robust, morally upright, and physically fit individuals who embody excellence in academics, character, discipline, and leadership. Cadet College Hasanabdal aspires to shape its students into 21st century global leaders — university-ready, life-ready, and committed to serving Pakistan and humanity with integrity, courage and purpose.",
+      "To cultivate intellectually robust, morally upright, and physically fit individuals who embody excellence in academics, character, discipline, and leadership. Bahar Cadet School aspires to shape its students into 21st century global leaders — university-ready, life-ready, and committed to serving Pakistan and humanity with integrity, courage and purpose.",
     sectionIntro:
       "The college pursues a values-driven education that balances academic rigour with character development, leadership training, physical fitness, and technological readiness. The following objectives guide our institutional programmes and student experiences.",
     highlights: ["Academic Excellence", "Leadership Development", "Character Building"],
@@ -44,14 +44,14 @@ export const infoPages: Record<string, InfoPageContent> = {
       "Technology and Innovation: Integrate modern tools, digital literacy, and innovation into teaching and learning to prepare cadets for a rapidly evolving world.",
       "Service to Nation: Inspire cadets to serve Pakistan and humanity through their chosen fields of influence, with unwavering loyalty and commitment.",
     ],
-    ctaLabel: "Overview of CCH",
-    ctaHref: "/info/overview-of-cch",
+    ctaLabel: "Overview of BCS",
+    ctaHref: "/info/overview-of-bcs",
   },
   history: {
     title: "History",
     subtitle: "A legacy institution shaping generations of cadets.",
     overview:
-      "As one of the earliest premier residential institutions of its kind in Pakistan, CCH has maintained a long-standing tradition of excellence and service.",
+      "As one of the earliest premier residential institutions of its kind in Pakistan, BCS has maintained a long-standing tradition of excellence and service.",
     highlights: ["Historic institution", "Enduring legacy", "National contribution"],
     points: [
       "The college established standards that inspired many later institutions.",
@@ -61,11 +61,11 @@ export const infoPages: Record<string, InfoPageContent> = {
     ctaLabel: "View Campus Life",
     ctaHref: "/campus-life",
   },
-  "overview-of-cch": {
-    title: "Overview of CCH",
+  "overview-of-bcs": {
+    title: "Overview of BCS",
     subtitle: "Aims and Objectives",
     overview:
-      "To cultivate intellectually robust, morally upright, and physically fit individuals who embody excellence in academics, character, discipline, and leadership. Cadet College Hasanabdal aspires to shape its students into 21st century global leaders, university-ready, life-ready, and committed to serving Pakistan and humanity with integrity, courage and purpose.",
+      "To cultivate intellectually robust, morally upright, and physically fit individuals who embody excellence in academics, character, discipline, and leadership. Bahar Cadet School aspires to shape its students into 21st century global leaders, university-ready, life-ready, and committed to serving Pakistan and humanity with integrity, courage and purpose.",
     sectionIntro:
       "The college pursues a values-driven education that balances academic rigour with character development, leadership training, physical fitness, and technological readiness. The following objectives guide our institutional programmes and student experiences.",
     highlights: ["Academic Excellence", "Leadership Development", "Character Building"],
@@ -83,28 +83,39 @@ export const infoPages: Record<string, InfoPageContent> = {
   },
   "founder-principal": {
     title: "Founder Principal",
-    subtitle: "Commemorating the educational vision that shaped CCH.",
+    subtitle: "BCS > Founder Principal",
     overview:
-      "The founding leadership established a framework centered on merit, discipline, and service that still defines the institutional ethos today.",
-    highlights: ["Foundational vision", "Merit-based standards", "Institutional ethos"],
+        "Bahar Cadet School (BCS) was founded by Syed Alamdar Hussain Shah, a distinguished veteran with an illustrious career in the Pakistan Army. With extensive experience in military service, Mr. Shah has trained thousands of army officers, imparting them with the skills and values essential for their roles.",
+      sectionIntro:
+        "His dedication and excellence were recognized on an international scale when he received a performance medal from the United Nations for his exemplary service. Throughout his career, Mr. Shah has garnered numerous accolades from various departments of the Pakistan Army, reflecting his commitment and contributions to the nation's defense.\n\nUnder his visionary leadership, BCS is dedicated to shaping the next generation of military leaders, ensuring they are well-prepared to uphold the highest standards of excellence and integrity.",
+      highlights: ["Military Excellence", "Global Recognition", "Visionary Leadership"],
     points: [
-      "Core systems were built on high expectations and structured mentorship.",
-      "The foundational framework emphasized humility and excellence in equal measure.",
-      "Many present practices continue to reflect the original educational philosophy.",
+        "Distinguished Pakistan Army veteran with extensive training and leadership experience.",
+        "Trained thousands of army officers in military discipline, strategy, and values.",
+        "Received a United Nations performance medal for exemplary international service.",
+        "Garnered numerous accolades from various departments of the Pakistan Army.",
+        "Established BCS on principles of merit, discipline, and service to the nation.",
+        "Dedicated to shaping the next generation of military and civilian leaders.",
+        "His legacy of service, discipline, and dedication is the cornerstone of BCS.",
     ],
     ctaLabel: "Read About College History",
     ctaHref: "/info/history",
   },
-  "principals-of-cch": {
-    title: "Principals of CCH",
-    subtitle: "Leadership continuity across the institution's journey.",
+  "principals-of-bcs": {
+    title: "Syed Amjad Hussain Shah – Director",
+    subtitle: "The academic leader guiding Bahar Cadet School.",
     overview:
-      "Successive principals contributed to curriculum modernization, culture-building, and strategic progress while preserving the college's identity.",
-    highlights: ["Leadership continuity", "Strategic progress", "Tradition with growth"],
+      "Syed Amjad Shah is the esteemed Director of Bahar Cadet School (BCS), renowned for his academic brilliance and boundless enthusiasm. Driven by a mission to prepare students for the challenges of military colleges, Mr. Shah brings a multifaceted approach to education.",
+    sectionIntro:
+      "He ensures that students receive comprehensive training in academics, psychology, physical fitness, and mental preparation, essential for excelling in army college entrance exams.\n\nUnder his dynamic leadership, BCS has achieved outstanding results, with students consistently performing at the highest levels. Mr. Shah's passion and commitment to his role are evident in his tireless efforts and innovative methods, making him a pivotal figure in the success and growth of Bahar Cadet School.",
+    highlights: ["Academic Brilliance", "Student Preparation", "Dynamic Leadership"],
     points: [
-      "Each tenure contributed to academic and administrative advancement.",
-      "Leadership transitions maintained consistency in discipline and standards.",
-      "Institutional reforms were introduced while preserving core values.",
+      "Esteemed Director of Bahar Cadet School with a strong academic vision.",
+      "Focuses on preparing students for the challenges of military colleges.",
+      "Provides training in academics, psychology, physical fitness, and mental preparation.",
+      "Ensures cadets are ready to excel in army college entrance exams.",
+      "Leads BCS with innovative methods, discipline, and unwavering commitment.",
+      "Has helped the school achieve outstanding results and high-level student performance.",
     ],
     ctaLabel: "See Current Administration",
     ctaHref: "/info/current-administration",
@@ -113,7 +124,7 @@ export const infoPages: Record<string, InfoPageContent> = {
     title: "Campus at a Glance",
     subtitle: "A quick view of facilities, hostels, and learning spaces.",
     overview:
-      "CCH is designed as a complete residential learning ecosystem with academic blocks, boarding wings, sports grounds, and activity zones.",
+      "BCS is designed as a complete residential learning ecosystem with academic blocks, boarding wings, sports grounds, and activity zones.",
     highlights: ["86-acre spread", "Residential wings", "Academic and sports blocks"],
     points: [
       "Academic, residential, and sports infrastructure is integrated for balanced growth.",
@@ -205,27 +216,9 @@ export const infoPages: Record<string, InfoPageContent> = {
     ctaLabel: "Apply Online",
     ctaHref: "/admissions",
   },
-  "exam-preparation": {
-    title: "Exam Preparation",
-    subtitle: "",
-    overview: "",
-    highlights: [],
-    points: [],
-    ctaLabel: "",
-    ctaHref: "",
-  },
-  "syllabus-for-entry-exam": {
-    title: "Syllabus for Entry Exam",
-    subtitle: "",
-    overview: "",
-    highlights: [],
-    points: [],
-    ctaLabel: "",
-    ctaHref: "",
-  },
   "fee-structure": {
     title: "Fee Structure",
-    subtitle: "",
+    subtitle: "Fee schedule 2025-26",
     overview: "",
     highlights: [],
     points: [],
@@ -264,45 +257,18 @@ export const infoPages: Record<string, InfoPageContent> = {
     title: "Learning Resources",
     subtitle: "Classroom support systems and academic tools.",
     overview:
-      "CCH provides curated learning resources, guided material support, and subject reinforcement modules to improve student outcomes.",
+      "BCS provides curated learning resources, guided material support, and subject reinforcement modules to improve student outcomes.",
     highlights: ["Resource support", "Guided learning", "Subject reinforcement"],
     points: [
       "Students access structured notes and reference material by department.",
       "Resource planning supports regular revision and conceptual retention.",
       "Faculty-assisted sessions help close individual learning gaps.",
     ],
-    ctaLabel: "Digital Library",
-    ctaHref: "/info/digital-library",
-  },
-  "digital-library": {
-    title: "Digital Library",
-    subtitle: "Access to e-resources, archives, and research tools.",
-    overview:
-      "The digital library supports independent learning with curated references, archives, and digital access resources for cadets and faculty.",
-    highlights: ["E-learning access", "Curated references", "Academic archives"],
-    points: [
-      "Students use digital references to complement classroom instruction.",
-      "The archive preserves institutional material for guided study.",
-      "Library workflows promote information literacy and research habits.",
-    ],
-    ctaLabel: "Meet Faculty Team",
-    ctaHref: "/faculty",
+    ctaLabel: "",
+    ctaHref: "",
   },
   "community-service": {
-    title: "Community Service",
-    subtitle: "Service initiatives that build empathy and responsibility.",
-    overview:
-      "Cadets participate in outreach and social welfare activities that strengthen civic values and practical leadership.",
-    highlights: ["Civic engagement", "Volunteer culture", "Social contribution"],
-    points: [
-      "Programs connect cadets with meaningful local service opportunities.",
-      "Activities promote empathy, responsibility, and public-minded thinking.",
-      "Service records support personal growth and leadership portfolios.",
-    ],
-    ctaLabel: "Wider Curriculum",
-    ctaHref: "/wider-curriculum",
-  },
-  "clubs-societies": {
+  
     title: "Clubs & Societies",
     subtitle: "Interest-based platforms for creativity and collaboration.",
     overview:
@@ -465,7 +431,7 @@ export const infoPages: Record<string, InfoPageContent> = {
     points: [
       "Profiles showcase excellence across diverse professional domains.",
       "Achievements inspire current cadets and reinforce institutional pride.",
-      "Success stories demonstrate the long-term value of CCH training.",
+      "Success stories demonstrate the long-term value of BCS training.",
     ],
     ctaLabel: "Read Alumni Stories",
     ctaHref: "/alumni",
@@ -568,8 +534,8 @@ export const infoPages: Record<string, InfoPageContent> = {
     ctaLabel: "Cadet Activities",
     ctaHref: "/campus-life",
   },
-  "cch-newsletters": {
-    title: "CCH Newsletters",
+  "bcs-newsletters": {
+    title: "BCS Newsletters",
     subtitle: "Periodic highlights from academic and cadet life.",
     overview:
       "Newsletters capture key updates, achievements, and events from across departments and cadet activities.",
@@ -670,27 +636,12 @@ export const infoPages: Record<string, InfoPageContent> = {
     ctaLabel: "Guidance & Placement Cell",
     ctaHref: "/info/guidance-placement-cell",
   },
-  "details-pen-pictures": {
-    title: "Details & Pen Pictures",
-    subtitle: "Individual cadet profiles and descriptive records for review.",
-    overview:
-      "Details and pen pictures provide a structured view of cadet background, strengths, and academic profile to help with mentoring and reporting.",
-    sectionIntro:
-      "This page is best used for profile-style summaries, especially when faculty need quick reference notes about a cadet's development.",
-    highlights: ["Individual profiling", "Mentoring support", "Academic snapshot"],
-    points: [
-      "Each profile can capture academic stream, interests, discipline record, and co-curricular strengths.",
-      "Pen pictures help instructors and house staff maintain a consistent understanding of cadet progress.",
-      "The format is useful for orientation, internal reviews, and institutional records.",
-    ],
-    ctaLabel: "Academic Excellence",
-    ctaHref: "/info/academic-excellence",
-  },
+  
   "privacy-policy": {
     title: "Privacy Policy",
     subtitle: "How the college collects, uses, and protects visitor information.",
     overview:
-      "Cadet College Hasanabdal uses its website with a commitment to transparency, responsible data handling, and appropriate protection of user information.",
+      "Bahar Cadet School uses its website with a commitment to transparency, responsible data handling, and appropriate protection of user information.",
     sectionIntro:
       "This policy page mirrors the reference site's intent: explain what data is collected, how it is used, and what protections are in place.",
     highlights: ["Data collection", "Secure handling", "Policy updates"],

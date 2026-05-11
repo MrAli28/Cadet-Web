@@ -32,9 +32,9 @@ export const navMegaMenus: MegaMenu[] = [
         label: "History", 
         href: "/info/history",
         children: [
-          { label: "Overview of CCH", href: "/info/overview-of-cch" },
+          { label: "Overview of BCS", href: "/info/overview-of-bcs" },
           { label: "Founder Principal", href: "/info/founder-principal" },
-          { label: "Principals of CCH", href: "/info/principals-of-cch" },
+          { label: "Principals of BCS", href: "/info/principals-of-bcs" },
         ]
       },
       { 
@@ -71,13 +71,6 @@ export const navMegaMenus: MegaMenu[] = [
         ]
       },
       { 
-        label: "Exam Preparation", 
-        href: "/info/exam-preparation",
-        children: [
-          { label: "Syllabus for Entry Exam", href: "/info/syllabus-for-entry-exam" },
-        ]
-      },
-      { 
         label: "Fee Structure", 
         href: "/info/fee-structure" 
       },
@@ -103,21 +96,11 @@ export const navMegaMenus: MegaMenu[] = [
         href: "/info/career-opportunities" 
       },
       { 
-        label: "Details & Pen Pictures", 
-        href: "/info/details-pen-pictures" 
-      },
-      { 
         label: "Position Holders", 
         href: "/info/position-holders" 
       },
-      { 
-        label: "Learning Resources", 
-        href: "/info/learning-resources" 
-      },
-      { 
-        label: "Digital Library", 
-        href: "/info/digital-library" 
-      },
+      
+      
     ],
   },
   {
@@ -184,31 +167,6 @@ export const navMegaMenus: MegaMenu[] = [
     ],
   },
   {
-    label: "ENDOWMENT FUND",
-    links: [
-      { 
-        label: "Appeal by the Principal", 
-        href: "/info/appeal-by-principal" 
-      },
-      { 
-        label: "Board of Trustees", 
-        href: "/info/board-of-trustees" 
-      },
-      { 
-        label: "Trust Deed & Certifications", 
-        href: "/info/trust-deed-certifications" 
-      },
-      { 
-        label: "Account Details", 
-        href: "/info/account-details" 
-      },
-      { 
-        label: "Audit Reports", 
-        href: "/info/audit-reports" 
-      },
-    ],
-  },
-  {
     label: "CADET LIFE",
     links: [
       { 
@@ -220,8 +178,8 @@ export const navMegaMenus: MegaMenu[] = [
         href: "/info/rules-regulations" 
       },
       { 
-        label: "CCH Newsletters", 
-        href: "/info/cch-newsletters" 
+        label: "BCS Newsletters", 
+        href: "/info/bcs-newsletters" 
       },
       { 
         label: "Calendar of Events", 
@@ -287,7 +245,6 @@ export const navDropdownGroups: NavGroup[] = [
     links: [
       { label: "Campus Life", href: "/campus-life" },
       { label: "Alumni", href: "/alumni" },
-      { label: "Endowment Fund", href: "/endowment-fund" },
       { label: "Career", href: "/career" },
     ],
   },

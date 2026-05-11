@@ -39,8 +39,8 @@ const CountUp = ({ end }: { end: number }) => {
 
 const BottomStats = () => {
   return (
-    <section className="py-16 bg-cch-navy">
-      <div className="cch-container">
+    <section className="py-16 bg-bcs-navy">
+      <div className="bcs-container">
         <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
           {stats.map((stat, i) => (
             <div key={i}>

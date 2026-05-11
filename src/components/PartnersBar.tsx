@@ -10,7 +10,7 @@ const partners = [
 const PartnersBar = () => {
   return (
     <section className="py-12 bg-background">
-      <div className="cch-container">
+      <div className="bcs-container">
         <div className="flex items-center justify-center gap-8 flex-wrap">
           {partners.map((p, i) => (
             <img key={i} src={p} alt={`Partner ${i + 1}`} className="h-12 md:h-16 object-contain opacity-70 hover:opacity-100 transition-opacity" />
