@@ -13,7 +13,6 @@ import Faculty from "./pages/Faculty";
 import CampusLife from "./pages/CampusLife";
 import Contact from "./pages/Contact";
 import Explore from "./pages/Explore";
-import Career from "./pages/Career";
 import InfoPage from "./pages/InfoPage";
 import NotFound from "./pages/NotFound";
 
@@ -35,7 +34,6 @@ const App = () => (
             <Route path="/academics" element={<Academics />} />
             <Route path="/faculty" element={<Faculty />} />
             <Route path="/campus-life" element={<CampusLife />} />
-            <Route path="/career" element={<Career />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/info/:pageId" element={<InfoPage />} />
             <Route path="/foreword-by-the-principal" element={<Navigate to="/info/foreword-by-principal" replace />} />
