@@ -420,7 +420,7 @@ export const infoPages: Record<string, InfoPageContent> = {
       "Engagement initiatives foster mentorship and support networks.",
     ],
     ctaLabel: "Alumni Registration",
-    ctaHref: "/alumni",
+    ctaHref: "/",
   },
   "prominent-abdalian": {
     title: "Prominent Abdalian",
@@ -434,7 +434,7 @@ export const infoPages: Record<string, InfoPageContent> = {
       "Success stories demonstrate the long-term value of BCS training.",
     ],
     ctaLabel: "Read Alumni Stories",
-    ctaHref: "/alumni",
+    ctaHref: "/",
   },
   "abdalian-keepsake": {
     title: "ABDALIAN-Keepsake",

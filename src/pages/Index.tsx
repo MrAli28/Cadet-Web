@@ -8,7 +8,6 @@ import LatestPosts from "@/components/LatestPosts";
 import LifeAtBCS from "@/components/LifeAtBCS";
 import JoinCTA from "@/components/JoinCTA";
 import InstructorsSection from "@/components/InstructorsSection";
-import AlumniSection from "@/components/AlumniSection";
 import BottomStats from "@/components/BottomStats";
 import PartnersBar from "@/components/PartnersBar";
 
@@ -27,7 +26,6 @@ const Index = () => {
       <LifeAtBCS />
       <JoinCTA />
       <InstructorsSection />
-      <AlumniSection />
       <BottomStats />
       <PartnersBar />
     </div>

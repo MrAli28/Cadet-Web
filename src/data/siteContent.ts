@@ -145,27 +145,7 @@ export const navMegaMenus: MegaMenu[] = [
       },
     ],
   },
-  {
-    label: "ALUMNI",
-    links: [
-      { 
-        label: "Alumni Registration", 
-        href: "/alumni" 
-      },
-      { 
-        label: "Homecomings & Golden Jubilee", 
-        href: "/info/homecomings-golden-jubilee" 
-      },
-      { 
-        label: "Prominent Abdalian", 
-        href: "/info/prominent-abdalian" 
-      },
-      { 
-        label: "ABDALIAN-Keepsake", 
-        href: "/info/abdalian-keepsake" 
-      },
-    ],
-  },
+  // Alumni menu removed
   {
     label: "CADET LIFE",
     links: [
@@ -227,7 +207,6 @@ export const navDropdownGroups: NavGroup[] = [
     title: "Campus & Community",
     links: [
       { label: "Campus Life", href: "/campus-life" },
-      { label: "Alumni", href: "/alumni" },
       { label: "Career", href: "/career" },
     ],
   },
