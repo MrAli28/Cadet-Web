@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const JoinCTA = () => {
   const values = [
     "Responsibility",
@@ -13,7 +15,7 @@ const JoinCTA = () => {
 
   return (
     <section
-      className="relative py-24 bg-[url('/images/group-picture.jpg')] bg-cover bg-center bg-fixed"
+      className="relative py-24 bg-[url('/images/hero2.JPG')] bg-cover bg-center bg-fixed"
     >
       <div className="bcs-overlay" />
       <div className="relative z-10 bcs-container text-center">
@@ -34,9 +36,9 @@ const JoinCTA = () => {
             </span>
           ))}
         </div>
-        <a href="#" className="bcs-btn-outline">
+        <Link to="/contact" className="bcs-btn-outline">
           Contact Us
-        </a>
+        </Link>
       </div>
     </section>
   );

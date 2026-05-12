@@ -10,9 +10,9 @@ const Navbar = () => {
     <>
       <nav className="bg-background shadow-md sticky top-0 z-50">
         <div className="bcs-container flex items-center justify-between py-3">
-          <a href="/" className="flex items-center gap-3">
-            <img src="/images/logo.png" alt="BCS Cadet School" className="h-14 w-auto" />
-            <div className="hidden sm:block">
+          <a href="/" className="flex items-center gap-0">
+            <img src="/images/logo1.png" alt="BCS Cadet School" className="h-20 w-36 sm:w-40 md:w-44 object-contain" />
+            <div className="hidden sm:block -ml-5">
               <div className="text-sm font-bold text-bcs-green font-lufga leading-tight">BCS</div>
               <div className="text-sm font-bold text-bcs-green font-lufga leading-tight">CADET SCHOOL</div>
               <div className="text-[10px] text-bcs-gray italic">Loyalty - Discipline - Leadership</div>

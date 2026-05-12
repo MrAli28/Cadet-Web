@@ -106,11 +106,18 @@ const InfoPage = () => {
           <div className="bcs-container">
             <article className="page-surface p-6 md:p-8 space-y-6">
               <div className="max-w-4xl">
-                <p className="text-xs uppercase tracking-[0.22em] font-bold text-bcs-green mb-3">Founder Principal</p>
-                <h2 className="text-2xl md:text-4xl font-bold text-bcs-dark-text mb-3">Syed Alamdar Hussain Shah</h2>
-                <p className="text-sm md:text-base text-bcs-body-text leading-relaxed">
-                  {page.overview}
-                </p>
+                <div className="grid grid-cols-1 md:grid-cols-3 gap-6 items-start">
+                  <div className="md:col-span-1">
+                    <img src="/images/principal.png" alt="Syed Alamdar Hussain Shah" className="w-full h-44 md:h-[260px] object-cover object-[center_30%] rounded-sm" />
+                  </div>
+                  <div className="md:col-span-2">
+                    <p className="text-xs uppercase tracking-[0.22em] font-bold text-bcs-green mb-3">Founder Principal</p>
+                    <h2 className="text-2xl md:text-4xl font-bold text-bcs-dark-text mb-3">Syed Alamdar Hussain Shah</h2>
+                    <p className="text-sm md:text-base text-bcs-body-text leading-relaxed">
+                      {page.overview}
+                    </p>
+                  </div>
+                </div>
               </div>
 
               <div className="space-y-4 max-w-4xl">
@@ -203,7 +210,7 @@ const InfoPage = () => {
               <aside className="space-y-6">
                 <div className="page-surface p-6 text-center space-y-5">
                   <div className="mx-auto flex h-24 w-24 items-center justify-center rounded-full border-4 border-bcs-green/15 bg-white shadow-sm">
-                    <img src="/images/logo.png" alt="BCS logo" className="h-16 w-16 object-contain" />
+                    <img src="/images/logo1.png" alt="BCS logo" className="h-16 w-16 object-contain" />
                   </div>
 
                   <div className="space-y-2">
@@ -353,17 +360,22 @@ const InfoPage = () => {
           ) : pageId === "foreword-by-principal" ? (
             <div className="page-surface p-6 md:p-8 space-y-6">
               <div className="max-w-4xl">
-                <h3 className="text-lg md:text-xl font-bold text-bcs-dark-text mb-4">
-                  Principal's Message
-                </h3>
-              </div>
-
-              <div className="space-y-4 max-w-4xl">
-                {page.sectionIntro?.split("\n\n").map((paragraph, idx) => (
-                  <p key={idx} className="text-bcs-body-text leading-relaxed">
-                    {paragraph}
-                  </p>
-                ))}
+                <div className="grid grid-cols-1 md:grid-cols-3 gap-6 items-start">
+                  <div className="md:col-span-1">
+                    <img src="/images/principal.png" alt="Principal" className="w-full h-44 md:h-[260px] object-cover object-[center_30%] rounded-sm" />
+                  </div>
+                  <div className="md:col-span-2">
+                    <h3 className="text-lg md:text-xl font-bold text-bcs-dark-text mb-2">Principal's Message</h3>
+                    <h4 className="text-base md:text-lg font-semibold text-bcs-green mb-3">Syed Alamdar Hussain Shah</h4>
+                    <div className="space-y-4">
+                      {page.sectionIntro?.split("\n\n").map((paragraph, idx) => (
+                        <p key={idx} className="text-bcs-body-text leading-relaxed">
+                          {paragraph}
+                        </p>
+                      ))}
+                    </div>
+                  </div>
+                </div>
               </div>
 
               <div className="grid grid-cols-1 md:grid-cols-3 gap-5 mt-6">

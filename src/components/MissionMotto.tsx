@@ -2,7 +2,7 @@ import { Mountain, Award } from "lucide-react";
 
 const MissionMotto = () => {
   return (
-    <section className="py-16 bg-[linear-gradient(90deg,#FFCC00_0%,#F5D161_100%)]">
+    <section className="py-20 bg-[linear-gradient(90deg,#FFCC00_0%,#F5D161_100%)]">
       <div className="bcs-container">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-start mb-10">
 
@@ -40,7 +40,7 @@ const MissionMotto = () => {
           <h3 className="text-xl md:text-2xl font-black font-lufga text-black uppercase tracking-wide mb-3">
             Why Choose Bahar Cadet School (BCS)?
           </h3>
-          <ul className="grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-2 text-black text-sm md:text-base font-medium">
+          <ul className="grid grid-cols-1 gap-y-2 text-black text-sm md:text-base font-medium">
             <li>Unbeatable Results: Our success rate exceeds 90%.</li>
             <li>Professional Team: Personalized guidance and dedicated support.</li>
             <li>Pioneers in the Region: First cadet institution in the region.</li>

@@ -1,9 +1,8 @@
+import { Link } from "react-router-dom";
+
 const WelcomeSection = () => {
   return (
     <section className="py-20 bg-gray-100 relative overflow-hidden">
-      {/* Faded background watermark */}
-      <div className="absolute inset-0 bg-[url('/images/faculty-banner.jpg')] bg-cover bg-center opacity-10 pointer-events-none" />
-
       <div className="bcs-container relative z-10">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
           {/* Text */}
@@ -23,12 +22,12 @@ const WelcomeSection = () => {
             </p>
             <p className="text-bcs-dark-text font-bold text-sm mb-1">Bahar Cadet School (BCS)</p>
             <p className="text-bcs-body-text text-sm mb-8">Excellence, Discipline, and Leadership</p>
-            <a
-              href="#"
+            <Link
+              to="/info/foreword-by-principal"
               className="inline-block bg-bcs-gold text-bcs-dark-text px-8 py-3 text-sm font-bold uppercase tracking-wider hover:brightness-95 transition-all duration-300"
             >
               Learn More
-            </a>
+            </Link>
           </div>
 
           {/* Image with decorative corners */}

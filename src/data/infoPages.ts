@@ -13,7 +13,7 @@ export type InfoPageContent = {
 export const infoPages: Record<string, InfoPageContent> = {
   "foreword-by-principal": {
     title: "Foreword by the Principal",
-    subtitle: "Brig Nasir Saeed Khattak (Retd), SI(M) – Principal",
+    subtitle: "Syed Alamdar Hussain Shah",
     overview:
       "Established in 1954 as the first institution of its kind in Pakistan, Bahar Cadet School has set the bar for high-quality boarding schools for boys.",
     sectionIntro:

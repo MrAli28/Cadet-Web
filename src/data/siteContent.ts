@@ -212,23 +212,6 @@ export const navMegaMenus: MegaMenu[] = [
       },
     ],
   },
-  {
-    label: "INFORMATION",
-    links: [
-      {
-        label: "Privacy Policy",
-        href: "/info/privacy-policy",
-      },
-      {
-        label: "Terms & Conditions",
-        href: "/info/terms-conditions",
-      },
-      {
-        label: "Cancelation Policy",
-        href: "/info/cancelation-policy",
-      },
-    ],
-  },
 ];
 
 export const navDropdownGroups: NavGroup[] = [
@@ -246,13 +229,6 @@ export const navDropdownGroups: NavGroup[] = [
       { label: "Campus Life", href: "/campus-life" },
       { label: "Alumni", href: "/alumni" },
       { label: "Career", href: "/career" },
-    ],
-  },
-  {
-    title: "Information",
-    links: [
-      { label: "About", href: "/about" },
-      { label: "Contact", href: "/contact" },
     ],
   },
 ];

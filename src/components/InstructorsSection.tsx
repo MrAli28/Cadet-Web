@@ -3,13 +3,11 @@ const instructors = [
     name: "Syed Alamdar Hussain Shah",
     role: "Founder, Bahar Cadet School (BCS)",
     img: "/images/principal.png",
-    bio: "A distinguished Pakistan Army veteran who trained thousands of officers and received a United Nations performance medal for exemplary service.",
-  },
-  {
-    name: "Syed Amjad Hussain Shah",
-    role: "Director, Bahar Cadet School (BCS)",
-    img: "/images/faculty-banner.jpg",
-    bio: "Leads BCS with academic excellence and a multidimensional training model covering academics, psychology, physical fitness, and mental preparation.",
+    bio: `Bahar Cadet School (BCS) was founded by Alamdar Hussain Shah Tk2, a distinguished veteran with an illustrious career in the Pakistan Army. With extensive experience in military service, Mr. Shah has trained thousands of army officers, imparting them with the skills and values essential for their roles. His dedication and excellence were recognized on an international scale when he received a performance medal from the United Nations for his exemplary service.
+
+Throughout his career, Mr. Shah has garnered numerous accolades from various departments of the Pakistan Army, reflecting his commitment and contributions to the nation's defense. Under his visionary leadership, BCS is dedicated to shaping the next generation of military leaders, ensuring they are well-prepared to uphold the highest standards of excellence and integrity.
+
+Alamdar Hussain Shah Tk2's legacy of service, discipline, and dedication is the cornerstone of Bahar Cadet School, inspiring both faculty and students to strive for greatness`,
   },
 ];
 
@@ -20,24 +18,33 @@ const InstructorsSection = () => {
         <h2 className="bcs-section-title text-center mb-12">
           <span className="font-bold">Leadership at Bahar Cadet School</span>
         </h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-          {instructors.map((inst, i) => (
-            <div key={i} className="group bg-white rounded-sm shadow-sm overflow-hidden border border-gray-100">
-              <div className="overflow-hidden">
-                <img
-                  src={inst.img}
-                  alt={inst.name}
-                  className="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-500"
-                />
-              </div>
-              <div className="p-5">
-                <h3 className="text-lg font-bold text-bcs-dark-text font-lufga">{inst.name}</h3>
-                <p className="text-sm text-bcs-green mt-1 font-semibold">{inst.role}</p>
-                <p className="text-sm text-bcs-body-text mt-3 leading-relaxed">{inst.bio}</p>
-              </div>
+        {(() => {
+          const single = instructors.length === 1;
+          return (
+            <div className={single ? "flex justify-center" : "grid grid-cols-1 md:grid-cols-2 gap-8"}>
+              {instructors.map((inst, i) => (
+                <div key={i} className={`group ${single ? 'w-full max-w-6xl' : ''}`}>
+                  <div className="grid grid-cols-1 md:grid-cols-2 gap-0">
+                    {/* Image */}
+                    <div className="overflow-hidden h-80 md:h-[520px]">
+                      <img
+                        src={inst.img}
+                        alt={inst.name}
+                        className={`w-full h-full ${inst.img === "/images/principal.png" ? "object-cover object-[center_30%]" : "object-cover"} group-hover:scale-105 transition-transform duration-500`}
+                      />
+                    </div>
+                    {/* Text */}
+                    <div className="p-10 md:p-16 flex flex-col justify-center transform -translate-y-10 md:-translate-y-16 bg-transparent">
+                      <h3 className="text-xl md:text-2xl font-bold text-bcs-dark-text font-lufga">{inst.name}</h3>
+                      <p className="text-sm md:text-base text-bcs-green mt-2 font-semibold">{inst.role}</p>
+                      <p className="text-sm md:text-base text-bcs-body-text mt-4 leading-relaxed">{inst.bio}</p>
+                    </div>
+                  </div>
+                </div>
+              ))}
             </div>
-          ))}
-        </div>
+          );
+        })()}
       </div>
     </section>
   );

@@ -42,7 +42,7 @@ const StatsSection = () => {
   return (
     <section
       className="relative py-36 bg-cover bg-center"
-      style={{ backgroundImage: "url('/images/group-picture.jpg')" }}
+      style={{ backgroundImage: "url('/images/hero2.JPG')" }}
     >
       {/* Dark navy overlay */}
       <div className="absolute inset-0 bg-[#174604] opacity-90" />
