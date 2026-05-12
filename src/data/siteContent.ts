@@ -14,7 +14,9 @@ export type MegaMenu = {
   links: NavLinkItem[];
 };
 
-export const navPrimaryLinks: NavLinkItem[] = [];
+export const navPrimaryLinks: NavLinkItem[] = [
+  { label: "Contact", href: "/contact" },
+];
 
 export const navMegaMenus: MegaMenu[] = [
   {
@@ -134,19 +136,7 @@ export const navMegaMenus: MegaMenu[] = [
       },
     ],
   },
-  {
-    label: "CAREER",
-    links: [
-      {
-        label: "Advertisements",
-        href: "/career",
-      },
-      {
-        label: "Contact Us",
-        href: "/contact",
-      },
-    ],
-  },
+  // CAREER section removed — top-level Contact link added
 ];
 
 export const navDropdownGroups: NavGroup[] = [
@@ -162,7 +152,7 @@ export const navDropdownGroups: NavGroup[] = [
     title: "Campus & Community",
     links: [
       { label: "Campus Life", href: "/campus-life" },
-      { label: "Career", href: "/career" },
+      { label: "Contact", href: "/contact" },
     ],
   },
 ];

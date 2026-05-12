@@ -20,15 +20,6 @@ const Navbar = () => {
           </a>
 
           <div className="hidden lg:flex items-center gap-5">
-            {navPrimaryLinks.map((item) => (
-              <a
-                key={item.label}
-                href={item.href}
-                className="text-xs font-semibold text-foreground tracking-wide hover:text-bcs-green transition-colors uppercase"
-              >
-                {item.label}
-              </a>
-            ))}
 
             {navMegaMenus.map((menu) => (
               <div 
@@ -81,6 +72,16 @@ const Navbar = () => {
               </div>
             ))}
 
+            {navPrimaryLinks.map((item) => (
+              <a
+                key={item.label}
+                href={item.href}
+                className="text-xs font-semibold text-foreground tracking-wide hover:text-bcs-green transition-colors uppercase"
+              >
+                {item.label}
+              </a>
+            ))}
+
             <button title="Search" className="text-foreground hover:text-bcs-green transition-colors">
               <Search className="w-4 h-4" />
             </button>
@@ -96,15 +97,6 @@ const Navbar = () => {
 
         {mobileOpen && (
           <div className="lg:hidden bg-background border-t border-border px-4 pb-4 space-y-2">
-            {navPrimaryLinks.map((item) => (
-              <a
-                key={item.label}
-                href={item.href}
-                className="block py-2.5 text-sm font-semibold text-foreground hover:text-bcs-green transition-colors uppercase"
-              >
-                {item.label}
-              </a>
-            ))}
 
             {navMegaMenus.map((menu) => (
               <div key={menu.label}>
@@ -159,6 +151,16 @@ const Navbar = () => {
                   </a>
                 ))}
               </div>
+            ))}
+
+            {navPrimaryLinks.map((item) => (
+              <a
+                key={item.label}
+                href={item.href}
+                className="block py-2.5 text-sm font-semibold text-foreground hover:text-bcs-green transition-colors uppercase"
+              >
+                {item.label}
+              </a>
             ))}
           </div>
         )}
