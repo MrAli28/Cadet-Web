@@ -146,7 +146,7 @@ export const infoPages: Record<string, InfoPageContent> = {
       "Residential services are structured for comfort, discipline, and care.",
     ],
     ctaLabel: "Explore Wider Curriculum",
-    ctaHref: "/wider-curriculum",
+    ctaHref: "/",
   },
   "current-administration": {
     title: "Current Administration",
