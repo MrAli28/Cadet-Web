@@ -114,10 +114,7 @@ export const navMegaMenus: MegaMenu[] = [
         label: "Clubs & Societies", 
         href: "/info/clubs-societies" 
       },
-      { 
-        label: "Duke of Edinburgh's Award", 
-        href: "/info/duke-of-edinburgh-award" 
-      },
+      // Duke of Edinburgh's Award removed
       { 
         label: "Guidance & Placement Cell", 
         href: "/info/guidance-placement-cell" 

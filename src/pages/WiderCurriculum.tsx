@@ -21,15 +21,7 @@ const curriculumAreas = [
     bg: "bg-bcs-green text-white",
     iconColor: "text-white"
   },
-  {
-    title: "Duke of Edinburgh's Award",
-    desc: "A globally recognized youth development framework focusing on physical challenges and expedition learning.",
-    icon: <Compass className="w-8 h-8" />,
-    href: "/info/duke-of-edinburgh-award",
-    span: "md:col-span-1 lg:col-span-1",
-    bg: "bg-white border border-black/5",
-    iconColor: "text-bcs-green"
-  },
+  // Duke of Edinburgh's Award removed
   {
     title: "Mentorship",
     desc: "Structured guidance programs pairing cadets with experienced faculty for personal and academic growth.",

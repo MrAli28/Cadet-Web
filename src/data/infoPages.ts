@@ -282,20 +282,7 @@ export const infoPages: Record<string, InfoPageContent> = {
     ctaLabel: "Campus Activities",
     ctaHref: "/campus-life",
   },
-  "duke-of-edinburgh-award": {
-    title: "Duke of Edinburgh's Award",
-    subtitle: "Globally recognized youth development framework.",
-    overview:
-      "The DOE pathway encourages cadets to grow through service, skill-building, physical challenges, and expedition learning.",
-    highlights: ["Global framework", "Expedition learning", "Personal growth"],
-    points: [
-      "Cadets complete progressive milestones across skill and service domains.",
-      "Program outcomes reflect resilience, planning, and perseverance.",
-      "Award participation complements formal academic development.",
-    ],
-    ctaLabel: "Guidance Support",
-    ctaHref: "/info/guidance-placement-cell",
-  },
+  // Duke of Edinburgh's Award removed
   "guidance-placement-cell": {
     title: "Guidance & Placement Cell",
     subtitle: "Academic and career guidance for informed choices.",
