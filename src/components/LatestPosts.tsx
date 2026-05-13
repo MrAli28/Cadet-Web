@@ -4,10 +4,10 @@ const LatestPosts = () => {
   return (
     <section className="py-16 bg-bcs-light-gray">
       <div className="bcs-container">
-        <div className="max-w-2xl">
+        <div className="max-w-2xl mx-auto">
           {/* Student Development at BCS */}
           <div>
-            <h2 className="text-2xl font-bold text-bcs-dark-text font-lufga mb-6">Balanced Student Life at BCS</h2>
+            <h2 className="text-2xl font-bold text-bcs-dark-text font-lufga mb-6 text-center">Balanced Student Life at BCS</h2>
             <div className="relative group cursor-pointer overflow-hidden rounded-sm">
               <img
                 src="/images/tour-07.png"
