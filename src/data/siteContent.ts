@@ -79,31 +79,23 @@ export const navMegaMenus: MegaMenu[] = [
       },
     ],
   },
-  {
-    label: "ACADEMICS",
-    links: [
       {
-        label: "Members of Faculty",
-        href: "/faculty",
+        label: "ACADEMICS",
+        links: [
+          {
+            label: "Members of Faculty",
+            href: "/faculty",
+          },
+          {
+            label: "Academic Excellence",
+            href: "/info/academic-excellence",
+          },
+          {
+            label: "Position Holders",
+            href: "/info/position-holders",
+          },
+        ],
       },
-      {
-        label: "Academic Excellence",
-        href: "/info/academic-excellence",
-      },
-      {
-        label: "Group Photograph",
-        href: "/info/group-photograph",
-      },
-      {
-        label: "Career Opportunities",
-        href: "/info/career-opportunities",
-      },
-      {
-        label: "Position Holders",
-        href: "/info/position-holders",
-      },
-    ],
-  },
   {
     label: "CADET LIFE",
     links: [

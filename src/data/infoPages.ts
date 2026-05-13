@@ -507,38 +507,7 @@ export const infoPages: Record<string, InfoPageContent> = {
     ctaHref: "/info/trust-deed-certifications",
   },
   
-  "group-photograph": {
-    title: "Group Photograph",
-    subtitle: "Faculty and outgoing class photographs preserved as institutional memory.",
-    overview:
-      "Group photographs record faculty teams and outgoing cadet batches, providing a visual archive of each academic year and its people.",
-    sectionIntro:
-      "The page is intended as a heritage space where the college can preserve and revisit formal class photographs and milestone moments.",
-    highlights: ["Faculty archive", "Outgoing class memories", "Heritage record"],
-    points: [
-      "Photographs capture the identity of each graduating or outgoing cohort.",
-      "The archive supports alumni memory, college storytelling, and historical continuity.",
-      "This type of record is often used for magazines, newsletters, and commemorative displays.",
-    ],
-    ctaLabel: "Digital Abdalian",
-    ctaHref: "/contact",
-  },
-  "career-opportunities": {
-    title: "Career Opportunities",
-    subtitle: "Useful pathways and resources for future study and professions.",
-    overview:
-      "The career opportunities page helps cadets think beyond school by pointing them toward higher study, scholarships, and profession-related research resources.",
-    sectionIntro:
-      "The reference site presents this as a curated list of external resources, and this version keeps the same intent with a cleaner institutional presentation.",
-    highlights: ["Career planning", "Higher education", "Scholarship research"],
-    points: [
-      "Cadets can use the guidance cell to discuss subject choices and long-term plans.",
-      "Higher education preparation includes university research, scholarship awareness, and test readiness.",
-      "A useful career page should remain practical, updated, and easy to scan for students and families.",
-    ],
-    ctaLabel: "Guidance & Placement Cell",
-    ctaHref: "/info/guidance-placement-cell",
-  },
+  // 'group-photograph' and 'career-opportunities' removed as requested
   
   "privacy-policy": {
     title: "Privacy Policy",
