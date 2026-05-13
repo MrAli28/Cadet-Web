@@ -14,13 +14,16 @@ const backgroundClassMap: Record<string, string> = {
 const PageBanner = ({
   title,
   subtitle,
-  backgroundImage = "/images/faculty-banner.jpg",
+  backgroundImage = "/images/hero2.JPG",
 }: PageBannerProps) => {
-  const backgroundClass = backgroundClassMap[backgroundImage] ?? backgroundClassMap["/images/faculty-banner.jpg"];
+  const backgroundClass = "bg-[url('/images/hero2.JPG')]";
 
   return (
     <section className="relative h-[260px] md:h-[320px] bg-bcs-dark-navy overflow-hidden">
-      <div className={`absolute inset-0 ${backgroundClass} bg-cover bg-center opacity-35`} />
+      <div
+        className={`absolute inset-0 ${backgroundClass} bg-cover bg-center opacity-35`}
+        style={{ backgroundPosition: "center 35%" }}
+      />
       <div className="absolute inset-0 bg-gradient-to-r from-bcs-dark-navy/90 to-bcs-navy/65" />
 
       <div className="relative z-10 bcs-container h-full flex flex-col justify-center">
