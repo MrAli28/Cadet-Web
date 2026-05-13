@@ -12,6 +12,7 @@ import Academics from "./pages/Academics";
 import Faculty from "./pages/Faculty";
 import CampusLife from "./pages/CampusLife";
 import Contact from "./pages/Contact";
+import Alumni from "./pages/Alumni";
 import Explore from "./pages/Explore";
 import InfoPage from "./pages/InfoPage";
 import NotFound from "./pages/NotFound";
@@ -34,6 +35,7 @@ const App = () => (
             <Route path="/academics" element={<Academics />} />
             <Route path="/faculty" element={<Faculty />} />
             <Route path="/campus-life" element={<CampusLife />} />
+            <Route path="/alumni" element={<Alumni />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/info/:pageId" element={<InfoPage />} />
             <Route path="/foreword-by-the-principal" element={<Navigate to="/info/foreword-by-principal" replace />} />

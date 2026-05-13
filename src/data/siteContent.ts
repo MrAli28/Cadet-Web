@@ -15,6 +15,7 @@ export type MegaMenu = {
 };
 
 export const navPrimaryLinks: NavLinkItem[] = [
+  { label: "Alumni", href: "/alumni" },
   { label: "Contact", href: "/contact" },
 ];
 
@@ -109,30 +110,6 @@ export const navMegaMenus: MegaMenu[] = [
       {
         label: "Activities",
         href: "/campus-life",
-      },
-      {
-        label: "Rules & Regulations",
-        href: "/info/rules-regulations",
-      },
-      {
-        label: "BCS Newsletters",
-        href: "/info/bcs-newsletters",
-      },
-      {
-        label: "Calendar of Events",
-        href: "/info/calendar-of-events",
-      },
-      {
-        label: "Mess Menu",
-        href: "/info/mess-menu",
-      },
-      {
-        label: "Digital Abdalian",
-        href: "/info/digital-abdalian",
-      },
-      {
-        label: "Wing & Mascots",
-        href: "/info/wing-mascots",
       },
     ],
   },
