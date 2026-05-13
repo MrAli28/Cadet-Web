@@ -1,5 +1,4 @@
-import { Link } from "react-router-dom";
-import { Sunrise, Sun, Moon, Calendar, FileText, Newspaper, Utensils, Shield, Flag, LayoutGrid } from "lucide-react";
+import { Sunrise, Sun, Moon } from "lucide-react";
 import PageBanner from "@/components/PageBanner";
 
 const routineSchedule = [
@@ -20,20 +19,11 @@ const routineSchedule = [
   },
 ];
 
-const lifeLinks = [
-  { title: "Rules & Regulations", href: "/info/rules-regulations", icon: <Shield className="w-6 h-6" /> },
-  { title: "BCS Newsletters", href: "/info/bcs-newsletters", icon: <Newspaper className="w-6 h-6" /> },
-  { title: "Calendar of Events", href: "/info/calendar-of-events", icon: <Calendar className="w-6 h-6" /> },
-  { title: "Mess Menu", href: "/info/mess-menu", icon: <Utensils className="w-6 h-6" /> },
-  { title: "Digital Abdalian", href: "/info/digital-abdalian", icon: <LayoutGrid className="w-6 h-6" /> },
-  { title: "Wing & Mascots", href: "/info/wing-mascots", icon: <Flag className="w-6 h-6" /> },
-];
-
 const CampusLife = () => {
   return (
     <div className="page-block">
       <PageBanner 
-        title="Cadet Life" 
+        title="Activities" 
         subtitle="A highly structured, active, and disciplined environment that builds character and camaraderie." 
       />
       
@@ -69,29 +59,6 @@ const CampusLife = () => {
                     </ul>
                   </div>
                 </div>
-              ))}
-            </div>
-          </div>
-
-          {/* Quick Aspects Grid */}
-          <div>
-            <h2 className="text-2xl font-bold text-bcs-dark-text font-lufga mb-8 text-center border-b border-black/10 pb-4">
-              Explore Cadet Life
-            </h2>
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-              {lifeLinks.map((link) => (
-                <Link 
-                  key={link.title}
-                  to={link.href}
-                  className="bg-white border border-black/5 p-6 rounded-sm shadow-sm hover:shadow-md hover:border-bcs-green transition-all flex items-center gap-4 group"
-                >
-                  <div className="bg-bcs-light-gray p-3 rounded-full text-bcs-dark-navy group-hover:bg-bcs-green group-hover:text-white transition-colors">
-                    {link.icon}
-                  </div>
-                  <span className="font-bold text-bcs-dark-text group-hover:text-bcs-green transition-colors">
-                    {link.title}
-                  </span>
-                </Link>
               ))}
             </div>
           </div>
