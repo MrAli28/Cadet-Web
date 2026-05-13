@@ -1,25 +1,6 @@
 import { PlayCircle } from "lucide-react";
 
-const posts = [
-  {
-    img: "/images/post-1.jpg",
-    title: "73rd Entry Test Result",
-    date: "February 5, 2026",
-    excerpt: "Candidates bearing the following Roll Numbers have been short-listed for Final Assessment i.e.…",
-  },
-  {
-    img: "/images/post-2.jpg",
-    title: "Result – Direct Entrant (69th Entry)",
-    date: "May 26, 2025",
-    excerpt: "The Entrance Test results for Class Direct Entry 1st Year/A-Level 2025 (69th Entry)…",
-  },
-  {
-    img: "/images/post-3.png",
-    title: "Leadership Summer Camp 2025",
-    date: "April 19, 2025",
-    excerpt: "Leadership Summer Camp 2025 BCS Cadet School invites boys aged 12–18 to an…",
-  },
-];
+const posts = [];
 
 const LatestPosts = () => {
   return (
