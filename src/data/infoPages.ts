@@ -181,39 +181,38 @@ export const infoPages: Record<string, InfoPageContent> = {
     ctaHref: "",
   },
   "admission-to-class-a-level": {
-    title: "Admission to Class A-Level",
-    subtitle: "Entry requirements, process and important dates for A-Level intake.",
+    title: "Admission to Classes 2 to 10",
+    subtitle: "Entry requirements, process and important dates for Classes 2–10 intake.",
     overview:
-      "Admission to Class A-Level seeks academically prepared candidates with a solid subject foundation and readiness for a residential advanced-study environment. Selection is based on prior academic record, a written assessment, and an interview.",
+      "Admission to Classes 2 to 10 at Bahar Cadet School welcomes applicants who demonstrate academic readiness and suitability for our residential learning environment. Evaluation considers prior school records, age eligibility, and may include an assessment or interview for certain entry levels.",
     sectionIntro:
-      "This page provides eligibility criteria, application steps, assessment format, document checklist, and post-selection instructions for A-Level applicants.",
-    highlights: ["Eligibility & age guidance", "Written assessment & interview", "Document checklist"],
+      "This page outlines eligibility criteria, application steps, assessment format (where applicable), the document checklist, and guidance for parents and applicants for entry into classes 2 through 10.",
+    highlights: ["Age & eligibility guidance", "Assessment & interview (where applicable)", "Document checklist"],
     points: [
-      "Applicants should have completed relevant secondary qualifications (O-Levels / SSC or equivalent) with strong results in core subjects.",
-      "Typical age range for A-Level intake is the late-teen years; specific limits are published with each intake notice.",
-      "Shortlisting is based on prior results followed by a written admissions test and an interview where applicable.",
-      "Submit certified copies of academic transcripts, identity documents, passport-size photographs, and any other documents requested in the admission notice.",
-      "Successful candidates are required to confirm their place by the published deadline and follow reporting instructions for orientation and fee payment.",
+      "Applicants should provide prior school records or transfer certificates demonstrating appropriate academic progress for the target class.",
+      "Age eligibility is specified per class; please refer to the intake notice for exact age brackets for each year.",
+      "Shortlisting may include review of prior records and, for some classes, a short written assessment and/or interview.",
+      "Submit certified copies of previous school records, identity documents, passport-size photographs, and any additional documents listed in the admission notice.",
+      "Parents/guardians of successful candidates must confirm admission and complete required enrolment steps by the published deadlines.",
     ],
     ctaLabel: "Apply Online",
     ctaHref: "/admissions",
   },
   "admission-to-class-o-level": {
-    title: "Admission to Class O-Level",
-    subtitle: "Entry requirements and process for O-Level intake.",
+    title: "Preparation For Military Colleges",
+    subtitle: "Overview of preparatory guidance and entry pathways for military college aspirants.",
     overview:
-      "Admission to Class O-Level is designed for candidates ready to join the foundational secondary track; selection prioritizes academic aptitude, behavioural fit for residential life, and potential for steady progress.",
+      "This section outlines academic and physical preparation recommendations for students aspiring to apply to military colleges. It covers curriculum alignment, recommended subjects, physical fitness guidance, and the typical selection process.",
     sectionIntro:
-      "This page outlines eligibility, application steps, the assessment format, document checklist, and guidance for parents and applicants for O-Level admissions.",
-    highlights: ["Eligibility & age guidance", "Assessment & interview", "Onboarding guidance"],
+      "Find guidance on academic readiness, recommended extracurricular activities, assessment expectations, and documentation frequently required by military college admission boards.",
+    highlights: ["Academic preparation", "Physical fitness & drills", "Application guidance"],
     points: [
-      "Applicants should present prior school records showing consistent academic performance in core subjects.",
-      "Age limits for each intake are stated in the official notice; please consult the current intake announcement.",
-      "Shortlisting may include a basic written assessment and an interview with college staff to evaluate readiness for boarding school routines.",
-      "Required documents typically include academic transcripts, birth certificate/B-Form, guardian ID, and passport-size photographs.",
-      "Selected cadets must complete admission formalities, fee payment, and medical checks before reporting on the scheduled orientation date.",
+      "Focus on core subjects relevant to the intended programme; maintain consistent academic performance.",
+      "Engage in regular physical training and activities that develop endurance, discipline, and teamwork skills.",
+      "Participate in leadership-focused extracurriculars and community programs to build an admissions profile.",
+      "Prepare required documents such as academic transcripts, medical clearance (if requested), identity proofs, and recommendation letters.",
     ],
-    ctaLabel: "Apply Online",
+    ctaLabel: "Learn More",
     ctaHref: "/admissions",
   },
   "fee-structure": {
@@ -435,7 +434,7 @@ export const infoPages: Record<string, InfoPageContent> = {
       "The archive supports heritage preservation and storytelling.",
     ],
     ctaLabel: "Digital Abdalian",
-    ctaHref: "/info/digital-abdalian",
+    ctaHref: "/contact",
   },
   "appeal-by-principal": {
     title: "Appeal by the Principal",
@@ -507,90 +506,7 @@ export const infoPages: Record<string, InfoPageContent> = {
     ctaLabel: "Trust Documents",
     ctaHref: "/info/trust-deed-certifications",
   },
-  "rules-regulations": {
-    title: "Rules & Regulations",
-    subtitle: "Cadet conduct and campus discipline framework.",
-    overview:
-      "Rules and regulations define behavioral standards and responsibilities that ensure a safe, orderly, and productive environment.",
-    highlights: ["Code of conduct", "Discipline standards", "Campus order"],
-    points: [
-      "Guidelines support respect, responsibility, and institutional values.",
-      "Cadets are briefed on rules during orientation and routine sessions.",
-      "Policy consistency ensures fairness and accountability.",
-    ],
-    ctaLabel: "Cadet Activities",
-    ctaHref: "/campus-life",
-  },
-  "bcs-newsletters": {
-    title: "BCS Newsletters",
-    subtitle: "Periodic highlights from academic and cadet life.",
-    overview:
-      "Newsletters capture key updates, achievements, and events from across departments and cadet activities.",
-    highlights: ["Periodic updates", "Event highlights", "Achievement coverage"],
-    points: [
-      "Newsletter editions document college milestones and success stories.",
-      "Cadets and faculty contributions strengthen institutional communication.",
-      "Archives support community engagement and historical continuity.",
-    ],
-    ctaLabel: "Latest News",
-    ctaHref: "/explore",
-  },
-  "calendar-of-events": {
-    title: "Calendar of Events",
-    subtitle: "Planned schedule of academic and co-curricular activities.",
-    overview:
-      "The event calendar supports structured planning of term activities, competitions, observances, and major campus milestones.",
-    highlights: ["Term planning", "Activity schedule", "Institutional coordination"],
-    points: [
-      "Calendar planning helps cadets and families stay informed.",
-      "Departments align timelines for assessments and activities.",
-      "Published schedules improve operational readiness and participation.",
-    ],
-    ctaLabel: "Campus Notices",
-    ctaHref: "/explore",
-  },
-  "mess-menu": {
-    title: "Mess Menu",
-    subtitle: "Nutrition planning and dining schedule for cadets.",
-    overview:
-      "The mess menu framework emphasizes balanced nutrition, hygiene standards, and routine meal planning for resident cadets.",
-    highlights: ["Balanced meals", "Dining routines", "Health-focused planning"],
-    points: [
-      "Menus are designed to support physical and academic performance.",
-      "Meal routines are integrated with cadet daily schedules.",
-      "Quality and hygiene standards remain core service priorities.",
-    ],
-    ctaLabel: "Student Welfare",
-    ctaHref: "/info/well-being",
-  },
-  "digital-abdalian": {
-    title: "Digital Abdalian",
-    subtitle: "Digital archive of Abdalian publications and editions.",
-    overview:
-      "The digital archive preserves newsletters and publications to maintain institutional memory and alumni connection.",
-    highlights: ["Publication archive", "Digital access", "Heritage preservation"],
-    points: [
-      "Historical editions remain accessible for students and alumni.",
-      "The archive reflects evolving institutional milestones.",
-      "Digital preservation supports continuity and research use.",
-    ],
-    ctaLabel: "ABDALIAN-Keepsake",
-    ctaHref: "/info/abdalian-keepsake",
-  },
-  "wing-mascots": {
-    title: "Wing & Mascots",
-    subtitle: "House identity, traditions, and cadet spirit.",
-    overview:
-      "Wing culture builds belonging, healthy competition, and leadership through house-based identity and activities.",
-    highlights: ["House system", "Cadet spirit", "Competitive culture"],
-    points: [
-      "Each wing contributes to discipline and peer mentorship.",
-      "Mascot and house traditions strengthen institutional pride.",
-      "Inter-wing activities build confidence and teamwork.",
-    ],
-    ctaLabel: "Campus Life",
-    ctaHref: "/campus-life",
-  },
+  
   "group-photograph": {
     title: "Group Photograph",
     subtitle: "Faculty and outgoing class photographs preserved as institutional memory.",
@@ -605,7 +521,7 @@ export const infoPages: Record<string, InfoPageContent> = {
       "This type of record is often used for magazines, newsletters, and commemorative displays.",
     ],
     ctaLabel: "Digital Abdalian",
-    ctaHref: "/info/digital-abdalian",
+    ctaHref: "/contact",
   },
   "career-opportunities": {
     title: "Career Opportunities",

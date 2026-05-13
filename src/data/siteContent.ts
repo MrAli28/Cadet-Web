@@ -69,8 +69,8 @@ export const navMegaMenus: MegaMenu[] = [
         label: "Admission Intake",
         href: "/info/admission-intake",
         children: [
-          { label: "Admission to Class A-Level", href: "/info/admission-to-class-a-level" },
-          { label: "Admission to Class O-Level", href: "/info/admission-to-class-o-level" },
+          { label: "Admission to Class 2 to 10", href: "/info/admission-to-class-a-level" },
+          { label: "Preparation For Military colleges", href: "/info/admission-to-class-o-level" },
         ],
       },
       {
