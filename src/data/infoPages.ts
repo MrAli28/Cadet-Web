@@ -508,7 +508,25 @@ export const infoPages: Record<string, InfoPageContent> = {
   },
   
   // 'group-photograph' and 'career-opportunities' removed as requested
-  
+
+  "career-counseling": {
+    title: "Career Counseling",
+    subtitle: "Guidance, planning, and placement support for cadets.",
+    overview:
+      "The Career Counseling service supports cadets in identifying academic and professional pathways by offering personalized guidance, subject choice advice, scholarship resources, and placement assistance.",
+    sectionIntro:
+      "Explore resources on subject selection, higher education options, vocational pathways, scholarship opportunities, and practical steps to prepare for further studies or careers.",
+    highlights: ["Subject & course guidance", "Higher education pathways", "Scholarship & placement support"],
+    points: [
+      "One-on-one counselling sessions to discuss academic strengths and career interests.",
+      "Workshops on university applications, scholarship searches, and entrance test preparation.",
+      "Support for vocational and professional pathway planning, internships, and mentorship connections.",
+      "Regular updates on external opportunities, job fairs, and higher-education deadlines.",
+    ],
+    ctaLabel: "Contact Career Cell",
+    ctaHref: "/contact",
+  },
+
   "privacy-policy": {
     title: "Privacy Policy",
     subtitle: "How the college collects, uses, and protects visitor information.",

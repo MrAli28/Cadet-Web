@@ -91,6 +91,10 @@ export const navMegaMenus: MegaMenu[] = [
             href: "/info/academic-excellence",
           },
           {
+            label: "Career Counseling",
+            href: "/info/career-counseling",
+          },
+          {
             label: "Position Holders",
             href: "/info/position-holders",
           },
