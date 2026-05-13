@@ -107,6 +107,10 @@ export const navMegaMenus: MegaMenu[] = [
         label: "Activities",
         href: "/campus-life",
       },
+      {
+        label: "Cadet Life in Our Campus",
+        href: "/info/cadet-life-in-our-campus",
+      },
     ],
   },
   // CAREER section removed — top-level Contact link added

@@ -527,6 +527,25 @@ export const infoPages: Record<string, InfoPageContent> = {
     ctaHref: "/contact",
   },
 
+  "cadet-life-in-our-campus": {
+    title: "Cadet Life in Our Campus",
+    subtitle: "Experience residential life, traditions, and community at Bahar Cadet School.",
+    overview:
+      "Cadet life at BCS encompasses residential living, character building, discipline, leadership development, and fostering brotherhood among cadets. The campus environment is designed to cultivate responsibility, mutual respect, and a spirit of service.",
+    sectionIntro:
+      "Discover what makes cadet life unique at our campus: daily routines, traditions, facilities, mentorship from senior cadets, and the values that define our residential community.",
+    highlights: ["Residential living", "Character & discipline", "Leadership development", "Campus traditions"],
+    points: [
+      "Cadets reside in dormitories under the supervision of dedicated house staff who mentor and guide them.",
+      "Daily routines emphasize punctuality, orderliness, and time management skills.",
+      "Cadet traditions foster brotherhood, pride in the institution, and a strong sense of community.",
+      "Mentorship from senior cadets and staff ensures newcomers integrate smoothly into campus life.",
+      "Extracurricular activities, sports, clubs, and social events balance academics with personal development.",
+    ],
+    ctaLabel: "Learn More",
+    ctaHref: "/campus-life",
+  },
+
   "privacy-policy": {
     title: "Privacy Policy",
     subtitle: "How the college collects, uses, and protects visitor information.",
