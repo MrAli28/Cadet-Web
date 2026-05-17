@@ -1,13 +1,13 @@
 const instructors = [
   {
-    name: "Syed Alamdar Hussain Shah",
+    name: "Ali Raza",
     role: "Founder, Basic Concept School (BCS)",
     img: "/images/principal.png",
-    bio: `Basic Concept School (BCS) was founded by Alamdar Hussain Shah Tk2, a distinguished veteran with an illustrious career in the Pakistan Army. With extensive experience in military service, Mr. Shah has trained thousands of army officers, imparting them with the skills and values essential for their roles. His dedication and excellence were recognized on an international scale when he received a performance medal from the United Nations for his exemplary service.
+    bio: `Basic Concept School (BCS) was founded by Ali Raza, a distinguished veteran with an illustrious career in the Pakistan Army. With extensive experience in military service, Mr. Raza has trained thousands of army officers, imparting them with the skills and values essential for their roles. His dedication and excellence were recognized on an international scale when he received a performance medal from the United Nations for his exemplary service.
 
-Throughout his career, Mr. Shah has garnered numerous accolades from various departments of the Pakistan Army, reflecting his commitment and contributions to the nation's defense. Under his visionary leadership, BCS is dedicated to shaping the next generation of military leaders, ensuring they are well-prepared to uphold the highest standards of excellence and integrity.
+Throughout his career, Mr. Raza has garnered numerous accolades from various departments of the Pakistan Army, reflecting his commitment and contributions to the nation's defense. Under his visionary leadership, BCS is dedicated to shaping the next generation of military leaders, ensuring they are well-prepared to uphold the highest standards of excellence and integrity.
 
-Alamdar Hussain Shah Tk2's legacy of service, discipline, and dedication is the cornerstone of Basic Concept School, inspiring both faculty and students to strive for greatness`,
+Ali Raza's legacy of service, discipline, and dedication is the cornerstone of Basic Concept School, inspiring both faculty and students to strive for greatness`,
   },
 ];
 

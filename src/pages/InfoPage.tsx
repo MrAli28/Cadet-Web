@@ -263,11 +263,11 @@ const InfoPage = () => {
               <div className="max-w-4xl">
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-6 items-start">
                   <div className="md:col-span-1">
-                    <img src="/images/principal.png" alt="Syed Alamdar Hussain Shah" className="w-full h-44 md:h-[260px] object-cover object-[center_30%] rounded-sm" />
+                    <img src="/images/principal.png" alt="Ali Raza" className="w-full h-44 md:h-[260px] object-cover object-[center_30%] rounded-sm" />
                   </div>
                   <div className="md:col-span-2">
                     <p className="text-xs uppercase tracking-[0.22em] font-bold text-bcs-green mb-3">Founder Principal</p>
-                    <h2 className="text-2xl md:text-4xl font-bold text-bcs-dark-text mb-3">Syed Alamdar Hussain Shah</h2>
+                    <h2 className="text-2xl md:text-4xl font-bold text-bcs-dark-text mb-3">Ali Raza</h2>
                     <p className="text-sm md:text-base text-bcs-body-text leading-relaxed">
                       {page.overview}
                     </p>
@@ -316,7 +316,7 @@ const InfoPage = () => {
             <article className="page-surface p-6 md:p-8 space-y-6">
               <div className="max-w-4xl">
                 <p className="text-xs uppercase tracking-[0.22em] font-bold text-bcs-green mb-3">Director</p>
-                <h2 className="text-2xl md:text-4xl font-bold text-bcs-dark-text mb-3">Syed Amjad Hussain Shah</h2>
+                    <h2 className="text-2xl md:text-4xl font-bold text-bcs-dark-text mb-3">Mujahid Numan Jatoi</h2>
                 <p className="text-sm md:text-base text-bcs-body-text leading-relaxed">
                   {page.overview}
                 </p>
@@ -523,7 +523,7 @@ const InfoPage = () => {
                   </div>
                   <div className="md:col-span-2">
                     <h3 className="text-lg md:text-xl font-bold text-bcs-dark-text mb-2">Principal's Message</h3>
-                    <h4 className="text-base md:text-lg font-semibold text-bcs-green mb-3">Syed Alamdar Hussain Shah</h4>
+                    <h4 className="text-base md:text-lg font-semibold text-bcs-green mb-3">Ali Raza</h4>
                     <div className="space-y-4">
                       {page.sectionIntro?.split("\n\n").map((paragraph, idx) => (
                         <p key={idx} className="text-bcs-body-text leading-relaxed">

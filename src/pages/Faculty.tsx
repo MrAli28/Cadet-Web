@@ -2,12 +2,12 @@ import PageBanner from "@/components/PageBanner";
 
 const leadership = [
   {
-    name: "Syed Alamdar Hussain Shah",
+    name: "Ali Raza",
     role: "Founder",
     summary: "Distinguished Pakistan Army veteran with extensive training leadership experience.",
   },
   {
-    name: "Syed Amjad Hussain Shah",
+    name: "Mujahid Numan Jatoi",
     role: "Director",
     summary: "Leads BCS with a strong focus on academic, physical, and mental readiness.",
   },

@@ -13,7 +13,7 @@ export type InfoPageContent = {
 export const infoPages: Record<string, InfoPageContent> = {
   "foreword-by-principal": {
     title: "Foreword by the Principal",
-    subtitle: "Syed Alamdar Hussain Shah",
+    subtitle: "Ali Raza",
     overview:
       "Established in 1954 as the first institution of its kind in Pakistan, Basic Concept School has set the bar for high-quality boarding schools for boys.",
     sectionIntro:
@@ -85,7 +85,7 @@ export const infoPages: Record<string, InfoPageContent> = {
     title: "Founder Principal",
     subtitle: "BCS > Founder Principal",
     overview:
-      "Basic Concept School (BCS) was founded by Syed Alamdar Hussain Shah, a distinguished veteran with an illustrious career in the Pakistan Army. With extensive experience in military service, Mr. Shah has trained thousands of army officers, imparting them with the skills and values essential for their roles.",
+      "Basic Concept School (BCS) was founded by Ali Raza, a distinguished veteran with an illustrious career in the Pakistan Army. With extensive experience in military service, Mr. Raza has trained thousands of army officers, imparting them with the skills and values essential for their roles.",
       sectionIntro:
         "His dedication and excellence were recognized on an international scale when he received a performance medal from the United Nations for his exemplary service. Throughout his career, Mr. Shah has garnered numerous accolades from various departments of the Pakistan Army, reflecting his commitment and contributions to the nation's defense.\n\nUnder his visionary leadership, BCS is dedicated to shaping the next generation of military leaders, ensuring they are well-prepared to uphold the highest standards of excellence and integrity.",
       highlights: ["Military Excellence", "Global Recognition", "Visionary Leadership"],
@@ -102,12 +102,12 @@ export const infoPages: Record<string, InfoPageContent> = {
     ctaHref: "/info/history",
   },
   "principals-of-bcs": {
-    title: "Syed Amjad Hussain Shah – Director",
+    title: "Mujahid Numan Jatoi – Director",
     subtitle: "The academic leader guiding Basic Concept School.",
     overview:
-      "Syed Amjad Shah is the esteemed Director of Basic Concept School (BCS), renowned for his academic brilliance and boundless enthusiasm. Driven by a mission to prepare students for the challenges of military colleges, Mr. Shah brings a multifaceted approach to education.",
+      "Mujahid Numan Jatoi is the esteemed Director of Basic Concept School (BCS), renowned for his academic vision and leadership. Driven by a mission to prepare students for the challenges of military colleges, Mr. Jatoi brings a multifaceted approach to education.",
     sectionIntro:
-      "He ensures that students receive comprehensive training in academics, psychology, physical fitness, and mental preparation, essential for excelling in army college entrance exams.\n\nUnder his dynamic leadership, BCS has achieved outstanding results, with students consistently performing at the highest levels. Mr. Shah's passion and commitment to his role are evident in his tireless efforts and innovative methods, making him a pivotal figure in the success and growth of Basic Concept School.",
+      "He ensures that students receive comprehensive training in academics, psychology, physical fitness, and mental preparation, essential for excelling in army college entrance exams.\n\nUnder his dynamic leadership, BCS has achieved outstanding results, with students consistently performing at the highest levels. Mr. Jatoi's passion and commitment to his role are evident in his tireless efforts and innovative methods, making him a pivotal figure in the success and growth of Basic Concept School.",
     highlights: ["Academic Brilliance", "Student Preparation", "Dynamic Leadership"],
     points: [
       "Esteemed Director of Basic Concept School with a strong academic vision.",
