@@ -164,10 +164,22 @@ export const infoPages: Record<string, InfoPageContent> = {
   },
   "courses-offered": {
     title: "Courses Offered",
-    subtitle: "",
-    overview: "",
-    highlights: [],
-    points: [],
+    subtitle: "Academic programmes and specialised preparatory courses.",
+    overview:
+      "We offer Matric classes (9th & 10th) with Computer and Biology options, alongside specialised preparatory programmes for entry into military and professional services.",
+    highlights: [
+      "Matric (9th & 10th) — Computer & Biology",
+      "Military, Cadet & PAF College Preparation",
+      "Professional entry and service preparation (AFNS, ISSB, Airmen/Airwoman)",
+    ],
+    points: [
+      "Matric classes (9th & 10th) with Computer and Biology: Strong subject foundation supported by labs and experienced teachers.",
+      "Preparation for entry tests and interviews for Military Colleges, Cadet Colleges, and PAF Colleges including written tests, intelligence testing, and interview coaching.",
+      "AFNS Nursing preparation: focused biology/medical basics and interview/medical screening guidance.",
+      "ISSB preparation: leadership tasks, psychological testing, group exercises, and interview simulations.",
+      "Airmen & Airwoman entry preparation: aptitude and technical test coaching combined with physical readiness programmes and medical guidance.",
+      "Comprehensive guidance and personality development support to help candidates succeed in competitive selection processes.",
+    ],
     ctaLabel: "",
     ctaHref: "",
   },
@@ -528,21 +540,31 @@ export const infoPages: Record<string, InfoPageContent> = {
   },
 
   "cadet-life-in-our-campus": {
-    title: "Cadet Life in Our Campus",
-    subtitle: "Experience residential life, traditions, and community at Bahar Cadet School.",
+    title: "Cadet Life at Our Campus",
+    subtitle: "Life at our cadet school is carefully structured to cultivate discipline, academic excellence, spiritual growth, and physical fitness.",
     overview:
-      "Cadet life at BCS encompasses residential living, character building, discipline, leadership development, and fostering brotherhood among cadets. The campus environment is designed to cultivate responsibility, mutual respect, and a spirit of service.",
+      "Life at our cadet school is carefully structured to cultivate discipline, academic excellence, spiritual growth, and physical fitness. Each day follows a balanced routine that helps cadets develop the habits and character required to become confident, responsible, and well-rounded individuals.",
     sectionIntro:
-      "Discover what makes cadet life unique at our campus: daily routines, traditions, facilities, mentorship from senior cadets, and the values that define our residential community.",
-    highlights: ["Residential living", "Character & discipline", "Leadership development", "Campus traditions"],
-    points: [
-      "Cadets reside in dormitories under the supervision of dedicated house staff who mentor and guide them.",
-      "Daily routines emphasize punctuality, orderliness, and time management skills.",
-      "Cadet traditions foster brotherhood, pride in the institution, and a strong sense of community.",
-      "Mentorship from senior cadets and staff ensures newcomers integrate smoothly into campus life.",
-      "Extracurricular activities, sports, clubs, and social events balance academics with personal development.",
+      "The daily routine and activity programme are designed to support cadets academically, physically, spiritually, and socially, preparing them to excel in education and lead with integrity.",
+    highlights: [
+      "Strong moral and Islamic values",
+      "Academic achievement",
+      "Physical fitness",
+      "Self-discipline",
+      "Leadership qualities",
+      "Time management skills",
     ],
-    ctaLabel: "Learn More",
+    points: [
+      "Early Morning Routine: The day begins before sunrise with Fajr Prayer followed by Nazra Quran, instilling punctuality and spiritual mindfulness. After prayer, cadets enjoy a nutritious breakfast and prepare for the academic day.",
+      "Academic Schedule: Formal classes commence at 8:00 AM. Cadets break for Dhuhr Prayer and lunch from 12:00 PM to 1:00 PM, and academic classes continue until 3:00 PM.",
+      "Sports and Physical Training: From 4:00 PM to 6:00 PM, cadets participate in cricket, football, volleyball, athletics, and physical training drills to promote teamwork, endurance, and leadership.",
+      "Evening Study Sessions: Supervised tuition and study classes run from 6:00 PM to 9:00 PM for lesson revision, assignments, and instructor support.",
+      "Night Routine: From 9:00 PM to 10:00 PM cadets perform night prayers and have dinner, providing time to relax and prepare for the next day.",
+      "Character Building Through Routine: The structured schedule fosters moral values, academic focus, physical wellbeing, self-discipline, leadership, and effective time management.",
+    ],
+    adminNote:
+      "Cadet Life at Our Campus section is maintained for official information flow, institutional clarity, and timely guidance for cadets, parents, alumni, and stakeholders.",
+    ctaLabel: "View Daily Routine",
     ctaHref: "/campus-life",
   },
 

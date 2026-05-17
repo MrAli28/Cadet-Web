@@ -15,6 +15,7 @@ import Contact from "./pages/Contact";
 import Alumni from "./pages/Alumni";
 import Explore from "./pages/Explore";
 import InfoPage from "./pages/InfoPage";
+import CadetLifeInOurCampus from "./pages/CadetLifeInOurCampus";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -38,6 +39,7 @@ const App = () => (
             <Route path="/alumni" element={<Alumni />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/info/:pageId" element={<InfoPage />} />
+            <Route path="/info/cadet-life-in-our-campus" element={<CadetLifeInOurCampus />} />
             <Route path="/foreword-by-the-principal" element={<Navigate to="/info/foreword-by-principal" replace />} />
           </Route>
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}

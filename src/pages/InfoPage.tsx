@@ -10,24 +10,39 @@ const buildAdminNote = (title: string) =>
 
 const courseOfferings = [
   {
-    stream: "Pre-Engineering",
-    core: "Mathematics, Physics, Chemistry",
-    support: "English Language, Urdu, Global Perspectives, Computer Science, Biology",
+    stream: "Matric (9th & 10th) — Computer & Biology",
+    core: "Mathematics, Computer (ICT), Biology / Science",
+    support: "English, Urdu, Islamiat",
   },
   {
-    stream: "A-Level - Computer Science & Information Technology",
-    core: "Mathematics, Physics, Computer Science",
-    support: "Chemistry, Biology, English Language, Urdu, Global Perspectives",
+    stream: "Military & Cadet College Preparation",
+    core: "Written test practice, Intelligence tests",
+    support: "Interview coaching, Physical training, Personality development",
   },
   {
-    stream: "Pre-Medical",
-    core: "Biology, Physics, Chemistry",
-    support: "Mathematics, English Language, Urdu, Global Perspectives, Computer Science",
+    stream: "PAF Colleges Preparation",
+    core: "Aptitude & technical test training",
+    support: "Physical preparedness, Interview practice",
   },
   {
-    stream: "A-Level - Social Sciences & Humanities",
-    core: "English Language, Urdu, Global Perspectives",
-    support: "Mathematics, Physics, Chemistry, Computer Science, Biology",
+    stream: "AFNS Nursing Preparation",
+    core: "Biology, Basic medical knowledge",
+    support: "English, Interview & medical screening guidance",
+  },
+  {
+    stream: "ISSB Preparation",
+    core: "Leadership tasks, Psychological testing",
+    support: "Group exercises, Interview simulations",
+  },
+  {
+    stream: "Airmen Entry Preparation",
+    core: "Aptitude & technical test coaching",
+    support: "Physical training & medical guidance",
+  },
+  {
+    stream: "Airwoman Entry Preparation",
+    core: "Aptitude & role-specific test coaching",
+    support: "Physical training & medical guidance",
   },
 ];
 
@@ -72,6 +87,8 @@ const InfoPage = () => {
   const page = pageId ? infoPages[pageId] : undefined;
 
   const relatedLinks = useMemo(() => buildRelatedLinks(pageId), [pageId]);
+
+  
 
   if (!page) {
     return (
@@ -296,7 +313,7 @@ const InfoPage = () => {
       <PageBanner title={page.title} subtitle={page.subtitle} />
       <section className="py-14 bg-bcs-light-gray">
         <div className="bcs-container space-y-8">
-          {pageId !== "courses-offered" && pageId !== "foreword-by-principal" && pageId !== "aim-objective" && pageId !== "overview-of-bcs" && pageId !== "campus-at-a-glance" && pageId !== "facilities" && pageId !== "current-administration" ? (
+          {pageId !== "courses-offered" && pageId !== "foreword-by-principal" && pageId !== "aim-objective" && pageId !== "overview-of-bcs" && pageId !== "campus-at-a-glance" && pageId !== "facilities" && pageId !== "current-administration" && pageId !== "cadet-life-in-our-campus" ? (
             <PageQuickLinks links={relatedLinks} />
           ) : null}
 
@@ -350,12 +367,14 @@ const InfoPage = () => {
                 </ul>
               </div>
 
-              <div className="page-surface p-6 md:p-8 flex flex-col md:flex-row md:items-center md:justify-between gap-4">
-                <p className="text-bcs-body-text">Need help choosing the right stream for your background and goals?</p>
-                <Link to={page.ctaHref} className="bcs-btn-primary whitespace-nowrap">
-                  {page.ctaLabel}
-                </Link>
-              </div>
+              {page.ctaLabel ? (
+                <div className="page-surface p-6 md:p-8 flex flex-col md:flex-row md:items-center md:justify-between gap-4">
+                  <p className="text-bcs-body-text">Need help choosing the right stream for your background and goals?</p>
+                  <Link to={page.ctaHref} className="bcs-btn-primary whitespace-nowrap">
+                    {page.ctaLabel}
+                  </Link>
+                </div>
+              ) : null}
             </div>
           ) : pageId === "foreword-by-principal" ? (
             <div className="page-surface p-6 md:p-8 space-y-6">
@@ -456,116 +475,88 @@ const InfoPage = () => {
           ) : pageId === "facilities" ? (
             <div className="page-surface p-6 md:p-8 space-y-8">
               <div className="max-w-4xl">
-                <h2 className="text-2xl font-bold text-bcs-dark-text mb-6">World Class Teaching, Learning & Boarding Facilities</h2>
-                
-                <p className="text-bcs-body-text leading-relaxed mb-8">
-                  The College is spread over an area of 86 acres. This includes a huge Academic Block that stands at a higher level, overlooking the six wings or hostels that are lying behind it, on a slanting slope, namely, Jinnah, Haider, Iqbal, Omar, Liaqat and Aurangzeb. On the far end of Academics Block, lies the swimming pool and just beside it is the College mess, which consists of two big halls. There is a College cafeteria and bakery just behind the mess. The College has big playing fields and games played on these grounds include cricket, hockey, football, basketball, volleyball. Furthermore, swimming is held seasonally, whereas horse riding is a convention in BCS that is held almost throughout the year.
+                <h2 className="text-2xl font-bold text-bcs-dark-text mb-6">Facilities</h2>
+
+                <p className="text-bcs-body-text leading-relaxed mb-6">
+                  Our institution provides a complete learning ecosystem — modern classrooms and labs, a well-stocked library, sports infrastructure, secure boarding, and specialised preparation facilities for military and cadet college entry.
                 </p>
               </div>
 
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <div className="page-surface p-6 space-y-3">
-                  <h3 className="text-lg font-bold text-bcs-dark-text">Hostels</h3>
+                  <h3 className="text-lg font-bold text-bcs-dark-text">Academic Excellence</h3>
                   <p className="text-sm text-bcs-body-text">
-                    The college comprises six hostels built around an oval. Each hostel hosts about 90 cadets. It is supervised by a House Master, an Assistant House Master, a House Tutor & an Assistant House Tutor. Evening preps enhance the effect of boarding and the House Staff render great services in guiding the boarding cadets. Each hostel will soon have ten latest computers with hi-speed internet WIFI connection. The facilities of washing, ironing & cleaning are available to all the cadets. Social evenings & dinner nights heighten the effect of boarding life.
+                    We provide a strong academic foundation from an early age to prepare students for future success in military and cadet institutions. Our qualified and experienced teachers focus on concept-based learning, discipline, and continuous academic improvement.
                   </p>
                 </div>
 
                 <div className="page-surface p-6 space-y-3">
-                  <h3 className="text-lg font-bold text-bcs-dark-text">Sports Fields</h3>
+                  <h3 className="text-lg font-bold text-bcs-dark-text">Cadet &amp; Military College Preparation</h3>
                   <p className="text-sm text-bcs-body-text">
-                    Afternoon games, regular drill and physical training are compulsory for all the cadets. The college is well equipped with a number of playing fields including cricket, hockey and soccer fields. Moreover, six basketball and two volleyball courts cater to the cadets' needs. Besides these facilities, individual enrollments for games such as lawn tennis and squash are available for the staff and cadets.
+                    Special preparation classes are conducted for admission tests and interviews of Military Colleges, Cadet Colleges, and PAF Colleges. Students receive complete guidance for written tests, intelligence tests, interviews, and personality development.
                   </p>
                 </div>
 
                 <div className="page-surface p-6 space-y-3">
-                  <h3 className="text-lg font-bold text-bcs-dark-text">Swimming</h3>
+                  <h3 className="text-lg font-bold text-bcs-dark-text">Admissions from Class 2</h3>
                   <p className="text-sm text-bcs-body-text">
-                    The college swimming pool measures 100×200 meters allowing coaching of swimming in a more professional and confident way. The shallow section is 4 feet deep while the deep section is 13 feet deep. Inter-wing Swimming competitions are held annually. Organized swimming practice continues throughout the summer term. Expert staff along with an officer remain on duty during swimming practice to ensure maximum utility of this facility.
+                    Admissions are offered from Class 2 onward, where students are trained step-by-step to build confidence, discipline, leadership qualities, and academic strength.
                   </p>
                 </div>
 
                 <div className="page-surface p-6 space-y-3">
-                  <h3 className="text-lg font-bold text-bcs-dark-text">Riding</h3>
+                  <h3 className="text-lg font-bold text-bcs-dark-text">Experienced Faculty</h3>
                   <p className="text-sm text-bcs-body-text">
-                    Riding is a permanent feature of the life in Bahar Cadet School. Trained military staff is available for those who aspire to gallop. This club provides support and encouragement to young riders who not only learn the basics of riding but also show their talents in riding on various events taking place in college.
+                    Our highly experienced and dedicated teachers ensure quality education, individual attention, and proper mentoring for every student.
                   </p>
                 </div>
 
                 <div className="page-surface p-6 space-y-3">
-                  <h3 className="text-lg font-bold text-bcs-dark-text">Gymnasium</h3>
+                  <h3 className="text-lg font-bold text-bcs-dark-text">Hostel Facility</h3>
                   <p className="text-sm text-bcs-body-text">
-                    The health and fitness issues are our utmost priority which is met through a health and fitness centre. The college gymnasium is furnished with latest exercise equipment and our trained staff who guide the cadets to the right strength training techniques. Cadets can review their own strengths and utilize this facility as per need.
+                    A secure and comfortable hostel facility is available for students with a clean and disciplined environment, healthy meals, proper supervision, study support, and 24/7 care and security.
                   </p>
                 </div>
 
                 <div className="page-surface p-6 space-y-3">
-                  <h3 className="text-lg font-bold text-bcs-dark-text">Mess</h3>
+                  <h3 className="text-lg font-bold text-bcs-dark-text">Personality Development</h3>
                   <p className="text-sm text-bcs-body-text">
-                    Two dining halls meet the dining needs of the cadets each with a capacity of hosting 250 cadets each. Our highly trained staff and a variety of cuisine make life at college an entirely different experience.
+                    We focus on developing leadership skills, confidence, communication skills, discipline, and moral values to help students succeed in both academic and professional life.
                   </p>
                 </div>
 
                 <div className="page-surface p-6 space-y-3">
-                  <h3 className="text-lg font-bold text-bcs-dark-text">Mosque</h3>
+                  <h3 className="text-lg font-bold text-bcs-dark-text">Physical Training &amp; Discipline</h3>
                   <p className="text-sm text-bcs-body-text">
-                    The College Mosque is the center of all religious activities. It has the capacity to accommodate about 1000 Namazies at a time. Besides the daily 5 times prayers, Jumma Prayers, Tarawih Prayers in Ramadan and Eid Prayers are also offered in this beautiful mosque. Moreover, other religious functions like Eid-Milad-un-Nabi, Shab-e-Barat, 27 Ramadan-ul-Mubarak etc are also performed here. A regular Khateeb and Moazzan (both Hafiz e Quraan) have been appointed to fulfill these needs.
+                    Students are trained in a disciplined environment inspired by military values, including physical fitness activities and character-building programs.
                   </p>
                 </div>
 
                 <div className="page-surface p-6 space-y-3">
-                  <h3 className="text-lg font-bold text-bcs-dark-text">Hospital</h3>
+                  <h3 className="text-lg font-bold text-bcs-dark-text">Regular Testing &amp; Progress Monitoring</h3>
                   <p className="text-sm text-bcs-body-text">
-                    The College Hospital has eighteen beds ward for the Cadets. It is looked after by a College resident Medical Officer who is assisted by other medical staff. All minor ailments are treated at the hospital but for specialized treatment and in case of serious illness or injury the patients are referred to appropriate medical facilities according to the entitlement of the Cadet's parents.
+                    Regular class tests, assessments, and performance reports help parents stay informed about their child’s progress and improvement.
                   </p>
                 </div>
 
                 <div className="page-surface p-6 space-y-3">
-                  <h3 className="text-lg font-bold text-bcs-dark-text">Library</h3>
+                  <h3 className="text-lg font-bold text-bcs-dark-text">Spoken English &amp; Communication Skills</h3>
                   <p className="text-sm text-bcs-body-text">
-                    Library is a resource centre for all types of learning and research purposes. The college library has a huge stock of books almost on all subjects. The librarian plays the role of a learning facilitator. Furthermore hi-speed internet helps learning far easier and faster. In addition, E-book bank in future will look after the individual needs of the cadets more precisely to broader spectrum.
+                    Special attention is given to spoken English, presentation skills, and communication development to build student confidence.
                   </p>
                 </div>
 
                 <div className="page-surface p-6 space-y-3">
-                  <h3 className="text-lg font-bold text-bcs-dark-text">Electricity Backup</h3>
+                  <h3 className="text-lg font-bold text-bcs-dark-text">Safe &amp; Supportive Environment</h3>
                   <p className="text-sm text-bcs-body-text">
-                    A heavy, automatic and efficient generator meets the needs of power crisis thus providing electricity to the whole college at need times.
+                    We provide a safe, caring, and motivating environment where students can learn, grow, and prepare for a bright future.
                   </p>
                 </div>
 
                 <div className="page-surface p-6 space-y-3">
-                  <h3 className="text-lg font-bold text-bcs-dark-text">Security System</h3>
+                  <h3 className="text-lg font-bold text-bcs-dark-text">Career-Oriented Guidance</h3>
                   <p className="text-sm text-bcs-body-text">
-                    The college is completely secured and well guarded through an efficient security system. The safety and security of the cadets is our first rated priority. Every effort has been made to ensure foolproof security and further efforts are in the pipeline.
-                  </p>
-                </div>
-
-                <div className="page-surface p-6 space-y-3">
-                  <h3 className="text-lg font-bold text-bcs-dark-text">High Speed Internet</h3>
-                  <p className="text-sm text-bcs-body-text">
-                    The College has got 100 MBPs Fiber Optic internet connection. The whole Education Block, all the 6 hostels and the houses of Faculty Members are connected through Fiber Optic/Cat 6 Cables to benefit from this high speed internet.
-                  </p>
-                </div>
-
-                <div className="page-surface p-6 space-y-3">
-                  <h3 className="text-lg font-bold text-bcs-dark-text">Language Lab</h3>
-                  <p className="text-sm text-bcs-body-text">
-                    A new Language Lab has been setup in the Academic Block. The lab is fully supported with the latest computers. It is equipped with high speed wi-fi internet and multimedia facilities. Licensed Berlitz software has been installed and the lab is fully functional.
-                  </p>
-                </div>
-
-                <div className="page-surface p-6 space-y-3">
-                  <h3 className="text-lg font-bold text-bcs-dark-text">Computer Lab</h3>
-                  <p className="text-sm text-bcs-body-text">
-                    The College has a spacious, well-equipped and Air-Conditioned Computer Lab situated in Ayub Block. The Lab is equipped with thirty five P-IV Dual Core computers for students and one for office work; all connected to the Main Server and provide full multimedia support. It also provides the facility of shared Printers and Scanners. Multimedia Projectors are also installed in the Lab to make the lectures more interesting and interactive.
-                  </p>
-                </div>
-
-                <div className="page-surface p-6 space-y-3">
-                  <h3 className="text-lg font-bold text-bcs-dark-text">Bio Lab</h3>
-                  <p className="text-sm text-bcs-body-text">
-                    Bio Lab is a facility that provides controlled conditions in which scientific research, experiments, and measurement may be performed. The Biology lab is a staple of most high school/Colleges curriculum. Students learn not only about nature and evolution, but also about the scientific process and proper procedure for conducting experiments.
+                    Our institution guides students toward successful careers in military and professional fields through proper planning, preparation, and mentorship.
                   </p>
                 </div>
               </div>
@@ -763,12 +754,14 @@ const InfoPage = () => {
                 <p className="text-bcs-body-text">{page.adminNote ?? buildAdminNote(page.title)}</p>
               </div>
 
-              <div className="page-surface p-6 md:p-8 flex flex-col md:flex-row md:items-center md:justify-between gap-4">
-                <p className="text-bcs-body-text">Need more official information on this section?</p>
-                <Link to={page.ctaHref} className="bcs-btn-primary whitespace-nowrap">
-                  {page.ctaLabel}
-                </Link>
-              </div>
+              {pageId !== "cadet-life-in-our-campus" ? (
+                <div className="page-surface p-6 md:p-8 flex flex-col md:flex-row md:items-center md:justify-between gap-4">
+                  <p className="text-bcs-body-text">Need more official information on this section?</p>
+                  <Link to={page.ctaHref} className="bcs-btn-primary whitespace-nowrap">
+                    {page.ctaLabel}
+                  </Link>
+                </div>
+              ) : null}
             </>
           )}
         </div>
