@@ -1,13 +1,13 @@
 const instructors = [
   {
     name: "Syed Alamdar Hussain Shah",
-    role: "Founder, Bahar Cadet School (BCS)",
+    role: "Founder, Basic Concept School (BCS)",
     img: "/images/principal.png",
-    bio: `Bahar Cadet School (BCS) was founded by Alamdar Hussain Shah Tk2, a distinguished veteran with an illustrious career in the Pakistan Army. With extensive experience in military service, Mr. Shah has trained thousands of army officers, imparting them with the skills and values essential for their roles. His dedication and excellence were recognized on an international scale when he received a performance medal from the United Nations for his exemplary service.
+    bio: `Basic Concept School (BCS) was founded by Alamdar Hussain Shah Tk2, a distinguished veteran with an illustrious career in the Pakistan Army. With extensive experience in military service, Mr. Shah has trained thousands of army officers, imparting them with the skills and values essential for their roles. His dedication and excellence were recognized on an international scale when he received a performance medal from the United Nations for his exemplary service.
 
 Throughout his career, Mr. Shah has garnered numerous accolades from various departments of the Pakistan Army, reflecting his commitment and contributions to the nation's defense. Under his visionary leadership, BCS is dedicated to shaping the next generation of military leaders, ensuring they are well-prepared to uphold the highest standards of excellence and integrity.
 
-Alamdar Hussain Shah Tk2's legacy of service, discipline, and dedication is the cornerstone of Bahar Cadet School, inspiring both faculty and students to strive for greatness`,
+Alamdar Hussain Shah Tk2's legacy of service, discipline, and dedication is the cornerstone of Basic Concept School, inspiring both faculty and students to strive for greatness`,
   },
 ];
 
@@ -16,7 +16,7 @@ const InstructorsSection = () => {
     <section className="py-20 bg-background">
       <div className="bcs-container">
         <h2 className="bcs-section-title text-center mb-12">
-          <span className="font-bold">Leadership at Bahar Cadet School</span>
+          <span className="font-bold">Leadership at Basic Concept School</span>
         </h2>
         {(() => {
           const single = instructors.length === 1;

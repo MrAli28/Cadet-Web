@@ -9,7 +9,7 @@ const CadetLifeInOurCampus = () => {
         <div className="bcs-container space-y-8">
           <div className="max-w-3xl mx-auto text-center">
             <h2 className="text-3xl font-bold text-bcs-dark-text font-lufga mb-4">Cadet Life at Our Campus</h2>
-            <p className="text-bcs-body-text">Life at our cadet school is carefully structured to cultivate discipline, academic excellence, spiritual growth, and physical fitness. Each day follows a balanced routine that helps cadets develop the habits and character required to become confident, responsible, and well-rounded individuals.</p>
+            <p className="text-bcs-body-text">Life at our cadet school is carefully structured to cultivate discipline, academic growth, spiritual growth, and physical fitness. Each day follows a balanced routine that helps cadets develop the habits and character required to become confident, responsible, and well-rounded individuals.</p>
           </div>
 
           <div className="grid grid-cols-1 gap-6">

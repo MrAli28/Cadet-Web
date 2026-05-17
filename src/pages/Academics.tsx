@@ -4,7 +4,6 @@ import PageBanner from "@/components/PageBanner";
 
 const academicLinks = [
   { label: "Members of Faculty", href: "/faculty", icon: <Users className="w-5 h-5" /> },
-  { label: "Academic Excellence", href: "/info/academic-excellence", icon: <Trophy className="w-5 h-5" /> },
   { label: "Position Holders", href: "/info/position-holders", icon: <Trophy className="w-5 h-5" /> },
   
 ];

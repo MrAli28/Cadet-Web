@@ -7,10 +7,10 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div>
             <div className="flex items-center gap-3 mb-4">
-              <img src="/images/logo1.png" alt="BCS Cadet School" className="h-12 w-auto" />
+              <img src="/images/logo1.png" alt="BCS Basic Concept School" className="h-12 w-auto" />
               <div>
                 <div className="text-sm font-bold font-lufga">BCS</div>
-                <div className="text-sm font-bold font-lufga">CADET SCHOOL</div>
+                <div className="text-sm font-bold font-lufga">BASIC CONCEPT SCHOOL</div>
               </div>
             </div>
             <p className="text-primary-foreground/60 text-sm leading-relaxed">
@@ -52,7 +52,7 @@ const Footer = () => {
               </div>
               <div className="flex items-start gap-2">
                 <MapPin className="w-4 h-4 text-bcs-green flex-shrink-0 mt-0.5" />
-                <span>Bahar Cadet School (BCS)</span>
+                <span>Basic Concept School (BCS)</span>
               </div>
             </div>
           </div>
@@ -60,7 +60,7 @@ const Footer = () => {
       </div>
       <div className="border-t border-primary-foreground/10 py-4">
         <div className="bcs-container text-center text-xs text-primary-foreground/50">
-          © 2026 BCS Cadet School. All Rights Reserved.
+          © 2026 Basic Concept School. All Rights Reserved.
         </div>
       </div>
     </footer>

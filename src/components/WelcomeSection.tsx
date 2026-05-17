@@ -8,10 +8,10 @@ const WelcomeSection = () => {
           {/* Text */}
           <div>
             <h2 className="text-3xl md:text-4xl font-bold font-lufga text-bcs-dark-text mb-6">
-              Introduction to Bahar Cadet School (BCS)
+              Introduction to Basic Concept School (BCS)
             </h2>
             <p className="text-bcs-body-text leading-relaxed text-[15px] mb-6">
-              Welcome to Bahar Cadet School (BCS), where excellence meets discipline. At BCS, we are committed to
+              Welcome to Basic Concept School (BCS), where excellence meets discipline. At BCS, we are committed to
               preparing our students for the prestigious military colleges of Pakistan through focused academics,
               structured mentoring, and character development.
             </p>
@@ -20,7 +20,7 @@ const WelcomeSection = () => {
               curriculum, physical training, and character development work together to instill integrity, discipline,
               and patriotism in every cadet.
             </p>
-            <p className="text-bcs-dark-text font-bold text-sm mb-1">Bahar Cadet School (BCS)</p>
+            <p className="text-bcs-dark-text font-bold text-sm mb-1">Basic Concept School (BCS)</p>
             <p className="text-bcs-body-text text-sm mb-8">Excellence, Discipline, and Leadership</p>
             <Link
               to="/info/foreword-by-principal"
@@ -38,7 +38,7 @@ const WelcomeSection = () => {
             <div className="absolute -bottom-4 -right-4 w-24 h-24 bg-[#174606] z-0" />
             <img
               src="/images/principal.png"
-              alt="Bahar Cadet School leadership"
+              alt="Basic Concept School leadership"
               className="relative z-10 w-full object-cover shadow-lg"
             />
           </div>

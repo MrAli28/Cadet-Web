@@ -9,7 +9,7 @@ const Contact = () => {
           <div className="page-surface p-6 md:p-8">
             <h2 className="text-2xl font-bold text-bcs-dark-text mb-4">Contact Information</h2>
             <div className="space-y-3 text-bcs-body-text text-sm md:text-base">
-              <p><strong>Campus:</strong> Bahar Cadet School (BCS)</p>
+              <p><strong>Campus:</strong> Basic Concept School (BCS)</p>
               <p><strong>Phone:</strong> Add official helpline numbers</p>
               <p><strong>Email:</strong> Add official email address</p>
               <p><strong>Address:</strong> Add complete campus location</p>

@@ -15,9 +15,9 @@ export const infoPages: Record<string, InfoPageContent> = {
     title: "Foreword by the Principal",
     subtitle: "Syed Alamdar Hussain Shah",
     overview:
-      "Established in 1954 as the first institution of its kind in Pakistan, Bahar Cadet School has set the bar for high-quality boarding schools for boys.",
+      "Established in 1954 as the first institution of its kind in Pakistan, Basic Concept School has set the bar for high-quality boarding schools for boys.",
     sectionIntro:
-      "Based on the British Public School pattern with a highly regimented and demanding atmosphere, BCS aims at training young men to join the armed forces of Pakistan as well as other disciplines. We focus on year-round, holistic, and balanced curricular and wider curriculum activities with emphasis on leadership training spanning the spectrum. The objectives of academic excellence, character development, personality shaping, inculcating universal values, and citizenship are kept foremost as core principles in shaping our students.\n\nThe outcome of this environment during these impactful years has brought our students to consistently rise to the top and exhibit excellence as second nature. It is for this reason that BCS claims to be \"shaping excellence\" as its creed.\n\nOver the past seven decades, our alumni have not only made impactful contributions to the national mainstream but have also crossed international boundaries and are now playing significant roles at the global level. Keeping pace with modern imperatives, BCS is well on its way to establishing itself as a globally-competitive international school.\n\nOur aim is to shape our cohorts towards becoming global leaders in their chosen fields of influence. Understanding the complexity of the global village, we encourage our students to venture beyond national boundaries and partake in the cosmopolitan, interconnected world. It is with much humility and pride that we claim the sobriquet of \"Second to None\".",
+      "Based on the British Public School pattern with a highly regimented and demanding atmosphere, BCS aims at training young men to join the armed forces of Pakistan as well as other disciplines. We focus on year-round, holistic, and balanced curricular and wider curriculum activities with emphasis on leadership training spanning the spectrum. The objectives of academic achievement, character development, personality shaping, inculcating universal values, and citizenship are kept foremost as core principles in shaping our students.\n\nThe outcome of this environment during these impactful years has brought our students to consistently rise to the top and exhibit excellence as second nature. It is for this reason that BCS claims to be \"shaping excellence\" as its creed.\n\nOver the past seven decades, our alumni have not only made impactful contributions to the national mainstream but have also crossed international boundaries and are now playing significant roles at the global level. Keeping pace with modern imperatives, BCS is well on its way to establishing itself as a globally-competitive international school.\n\nOur aim is to shape our cohorts towards becoming global leaders in their chosen fields of influence. Understanding the complexity of the global village, we encourage our students to venture beyond national boundaries and partake in the cosmopolitan, interconnected world. It is with much humility and pride that we claim the sobriquet of \"Second to None\".",
     highlights: ["Holistic Development", "Leadership Training", "Global Outlook"],
     points: [
       "Rigorous academics combined with structured character building and discipline.",
@@ -31,12 +31,12 @@ export const infoPages: Record<string, InfoPageContent> = {
     title: "Aim & Objective",
     subtitle: "Institutional aims and core objectives.",
     overview:
-      "To cultivate intellectually robust, morally upright, and physically fit individuals who embody excellence in academics, character, discipline, and leadership. Bahar Cadet School aspires to shape its students into 21st century global leaders — university-ready, life-ready, and committed to serving Pakistan and humanity with integrity, courage and purpose.",
+      "To cultivate intellectually robust, morally upright, and physically fit individuals who embody excellence in academics, character, discipline, and leadership. Basic Concept School aspires to shape its students into 21st century global leaders — university-ready, life-ready, and committed to serving Pakistan and humanity with integrity, courage and purpose.",
     sectionIntro:
       "The college pursues a values-driven education that balances academic rigour with character development, leadership training, physical fitness, and technological readiness. The following objectives guide our institutional programmes and student experiences.",
-    highlights: ["Academic Excellence", "Leadership Development", "Character Building"],
+    highlights: ["Academic Programs", "Leadership Development", "Character Building"],
     points: [
-      "Academic Excellence: Provide high-quality, globally-benchmarked education that fosters critical thinking, creativity, and problem-solving in line with national and international standards.",
+      "Quality Education: Provide high-quality, globally-benchmarked education that fosters critical thinking, creativity, and problem-solving in line with national and international standards.",
       "Leadership Development: Instill leadership qualities and a strong sense of responsibility through structured training, student governance, and co-curricular engagement.",
       "Character Building: Promote integrity, resilience, humility, and respect for diversity through a values-driven environment grounded in universal principles.",
       "Physical and Mental Wellbeing: Ensure physical fitness and mental resilience through sports, military drills, outdoor training, and wellness programmes.",
@@ -65,12 +65,12 @@ export const infoPages: Record<string, InfoPageContent> = {
     title: "Overview of BCS",
     subtitle: "Aims and Objectives",
     overview:
-      "To cultivate intellectually robust, morally upright, and physically fit individuals who embody excellence in academics, character, discipline, and leadership. Bahar Cadet School aspires to shape its students into 21st century global leaders, university-ready, life-ready, and committed to serving Pakistan and humanity with integrity, courage and purpose.",
+      "To cultivate intellectually robust, morally upright, and physically fit individuals who embody excellence in academics, character, discipline, and leadership. Basic Concept School aspires to shape its students into 21st century global leaders, university-ready, life-ready, and committed to serving Pakistan and humanity with integrity, courage and purpose.",
     sectionIntro:
       "The college pursues a values-driven education that balances academic rigour with character development, leadership training, physical fitness, and technological readiness. The following objectives guide our institutional programmes and student experiences.",
-    highlights: ["Academic Excellence", "Leadership Development", "Character Building"],
+    highlights: ["Academic Programs", "Leadership Development", "Character Building"],
     points: [
-      "Academic Excellence: To provide high-quality, globally benchmarked education that fosters critical thinking, creativity, and problem-solving in line with national and international standards.",
+      "Quality Education: To provide high-quality, globally benchmarked education that fosters critical thinking, creativity, and problem-solving in line with national and international standards.",
       "Leadership Development: To instill leadership qualities and a strong sense of responsibility through structured training, student governance, and co-curricular engagement.",
       "Character Building: To promote integrity, resilience, humility, and respect for diversity through a values-driven environment grounded in universal principles.",
       "Physical and Mental Wellbeing: To ensure the physical fitness and mental resilience of cadets through a balanced regimen of sports, military drills, outdoor training, and wellness programmes.",
@@ -85,7 +85,7 @@ export const infoPages: Record<string, InfoPageContent> = {
     title: "Founder Principal",
     subtitle: "BCS > Founder Principal",
     overview:
-        "Bahar Cadet School (BCS) was founded by Syed Alamdar Hussain Shah, a distinguished veteran with an illustrious career in the Pakistan Army. With extensive experience in military service, Mr. Shah has trained thousands of army officers, imparting them with the skills and values essential for their roles.",
+      "Basic Concept School (BCS) was founded by Syed Alamdar Hussain Shah, a distinguished veteran with an illustrious career in the Pakistan Army. With extensive experience in military service, Mr. Shah has trained thousands of army officers, imparting them with the skills and values essential for their roles.",
       sectionIntro:
         "His dedication and excellence were recognized on an international scale when he received a performance medal from the United Nations for his exemplary service. Throughout his career, Mr. Shah has garnered numerous accolades from various departments of the Pakistan Army, reflecting his commitment and contributions to the nation's defense.\n\nUnder his visionary leadership, BCS is dedicated to shaping the next generation of military leaders, ensuring they are well-prepared to uphold the highest standards of excellence and integrity.",
       highlights: ["Military Excellence", "Global Recognition", "Visionary Leadership"],
@@ -103,14 +103,14 @@ export const infoPages: Record<string, InfoPageContent> = {
   },
   "principals-of-bcs": {
     title: "Syed Amjad Hussain Shah – Director",
-    subtitle: "The academic leader guiding Bahar Cadet School.",
+    subtitle: "The academic leader guiding Basic Concept School.",
     overview:
-      "Syed Amjad Shah is the esteemed Director of Bahar Cadet School (BCS), renowned for his academic brilliance and boundless enthusiasm. Driven by a mission to prepare students for the challenges of military colleges, Mr. Shah brings a multifaceted approach to education.",
+      "Syed Amjad Shah is the esteemed Director of Basic Concept School (BCS), renowned for his academic brilliance and boundless enthusiasm. Driven by a mission to prepare students for the challenges of military colleges, Mr. Shah brings a multifaceted approach to education.",
     sectionIntro:
-      "He ensures that students receive comprehensive training in academics, psychology, physical fitness, and mental preparation, essential for excelling in army college entrance exams.\n\nUnder his dynamic leadership, BCS has achieved outstanding results, with students consistently performing at the highest levels. Mr. Shah's passion and commitment to his role are evident in his tireless efforts and innovative methods, making him a pivotal figure in the success and growth of Bahar Cadet School.",
+      "He ensures that students receive comprehensive training in academics, psychology, physical fitness, and mental preparation, essential for excelling in army college entrance exams.\n\nUnder his dynamic leadership, BCS has achieved outstanding results, with students consistently performing at the highest levels. Mr. Shah's passion and commitment to his role are evident in his tireless efforts and innovative methods, making him a pivotal figure in the success and growth of Basic Concept School.",
     highlights: ["Academic Brilliance", "Student Preparation", "Dynamic Leadership"],
     points: [
-      "Esteemed Director of Bahar Cadet School with a strong academic vision.",
+      "Esteemed Director of Basic Concept School with a strong academic vision.",
       "Focuses on preparing students for the challenges of military colleges.",
       "Provides training in academics, psychology, physical fitness, and mental preparation.",
       "Ensures cadets are ready to excel in army college entrance exams.",
@@ -196,7 +196,7 @@ export const infoPages: Record<string, InfoPageContent> = {
     title: "Admission to Classes 2 to 10",
     subtitle: "Entry requirements, process and important dates for Classes 2–10 intake.",
     overview:
-      "Admission to Classes 2 to 10 at Bahar Cadet School welcomes applicants who demonstrate academic readiness and suitability for our residential learning environment. Evaluation considers prior school records, age eligibility, and may include an assessment or interview for certain entry levels.",
+      "Admission to Classes 2 to 10 at Basic Concept School welcomes applicants who demonstrate academic readiness and suitability for our residential learning environment. Evaluation considers prior school records, age eligibility, and may include an assessment or interview for certain entry levels.",
     sectionIntro:
       "This page outlines eligibility criteria, application steps, assessment format (where applicable), the document checklist, and guidance for parents and applicants for entry into classes 2 through 10.",
     highlights: ["Age & eligibility guidance", "Assessment & interview (where applicable)", "Document checklist"],
@@ -236,33 +236,22 @@ export const infoPages: Record<string, InfoPageContent> = {
     ctaLabel: "",
     ctaHref: "",
   },
-  "academic-excellence": {
-    title: "Academic Excellence",
-    subtitle: "Performance culture driven by quality teaching and mentoring.",
-    overview:
-      "The college maintains strong outcomes through rigorous instruction, continuous evaluation, and targeted support for individual learners.",
-    highlights: ["Result consistency", "Instruction quality", "Targeted support"],
-    points: [
-      "Department plans are aligned with measurable learning outcomes.",
-      "Faculty review performance trends and strengthen support mechanisms.",
-      "High standards are reinforced through mentoring and accountability.",
-    ],
-    ctaLabel: "View Position Holders",
-    ctaHref: "/info/position-holders",
-  },
+  
   "position-holders": {
     title: "Position Holders",
-    subtitle: "Celebrating top-performing cadets and academic achievers.",
-    overview:
-      "This section recognizes merit through annual and term-based distinctions that reflect discipline, consistency, and hard work.",
-    highlights: ["Merit recognition", "Annual distinctions", "Achievement culture"],
-    points: [
-      "Cadets are acknowledged for outstanding board and internal results.",
-      "Recognition motivates healthy competition and goal-oriented effort.",
-      "Academic honors reflect both performance and personal discipline.",
+    subtitle: "Honouring Top Cadets — recognising outstanding academic and co-curricular achievement across classes and streams.",
+    overview: "This section recognises our highest achievers. Below are the latest position holders across classes and streams.",
+    // previous detailed sections removed for restructuring; use `positionHolders` to render cards
+    positionHolders: [
+      { name: "Cadet Ali Khan", position: "1st Position", course: "Matric - Computer", image: "/images/position-holder-1.jpg" },
+      { name: "Cadet Amina Noor", position: "2nd Position", course: "Matric - Biology", image: "/images/position-holder-2.jpg" },
+      { name: "Cadet Usman Riaz", position: "3rd Position", course: "Military Prep", image: "/images/position-holder-3.jpg" },
+      { name: "Cadet Sara Qureshi", position: "Top Performer", course: "AFNS Nursing Prep", image: "/images/position-holder-4.jpg" },
+      { name: "Cadet Hamza Iqbal", position: "Top Cadet", course: "ISSB Preparation", image: "/images/position-holder-5.jpg" },
+      { name: "Cadet Maria Khan", position: "Top Achiever", course: "Airwoman Entry Prep", image: "/images/position-holder-6.jpg" },
     ],
-    ctaLabel: "Academics Overview",
-    ctaHref: "/academics",
+    ctaLabel: "",
+    ctaHref: "",
   },
   "learning-resources": {
     title: "Learning Resources",
@@ -523,27 +512,81 @@ export const infoPages: Record<string, InfoPageContent> = {
 
   "career-counseling": {
     title: "Career Counseling",
-    subtitle: "Guidance, planning, and placement support for cadets.",
+    subtitle: "Building Future Leaders & Cadets",
     overview:
-      "The Career Counseling service supports cadets in identifying academic and professional pathways by offering personalized guidance, subject choice advice, scholarship resources, and placement assistance.",
+      "At Basic Concept School (BCS), we prepare students not only for academic success but also for disciplined leadership and national service. Our Career Counseling program guides cadets towards bright futures in military, professional, and modern career fields according to their abilities, interests, and ambitions.",
     sectionIntro:
-      "Explore resources on subject selection, higher education options, vocational pathways, scholarship opportunities, and practical steps to prepare for further studies or careers.",
-    highlights: ["Subject & course guidance", "Higher education pathways", "Scholarship & placement support"],
-    points: [
-      "One-on-one counselling sessions to discuss academic strengths and career interests.",
-      "Workshops on university applications, scholarship searches, and entrance test preparation.",
-      "Support for vocational and professional pathway planning, internships, and mentorship connections.",
-      "Regular updates on external opportunities, job fairs, and higher-education deadlines.",
+      "We help students develop confidence, discipline, leadership qualities, and career direction so they can serve the nation with pride and achieve success in life.",
+    highlights: [
+      "Confidence, discipline and leadership development",
+      "Subject and career choice guidance",
+      "University & scholarship planning",
+      "One-on-one mentoring and career planning",
     ],
-    ctaLabel: "Contact Career Cell",
-    ctaHref: "/contact",
+    services: [
+      {
+        title: "Armed Forces Guidance",
+        description:
+          "We guide students who wish to join the Pakistan Army, Pakistan Air Force (PAF), Pakistan Navy, ISSB preparation programs, cadet colleges, and military academies.",
+      },
+      {
+        title: "Academic & Subject Counseling",
+        description:
+          "Helping cadets choose the right academic stream and subject combinations that suit future military and professional careers.",
+      },
+      {
+        title: "Personality Development",
+        description:
+          "Developing leadership skills, discipline, confidence, communication, and decision-making abilities through targeted workshops and mentoring.",
+      },
+      {
+        title: "Career Planning",
+        description:
+          "Providing awareness and planning for modern and respected career opportunities in defence services, engineering, medicine, computer science & AI, cyber security, civil services, and business & management.",
+      },
+      {
+        title: "One-on-One Guidance",
+        description:
+          "Individual counseling sessions to understand each cadet’s strengths, goals, and future ambitions and to build a personalised plan.",
+      },
+    ],
+    futureCareers: [
+      "Defence Services",
+      "Engineering",
+      "Medical Field",
+      "Computer Science & AI",
+      "Cyber Security",
+      "Civil Services",
+      "Business & Management",
+    ],
+    approach: [
+      "Student interests and passion",
+      "Skills and aptitude analysis",
+      "Personality development",
+      "Goal setting and planning",
+      "Real-world career awareness",
+    ],
+    benefits: [
+      "Military-focused guidance and mentorship",
+      "Discipline-based learning environment",
+      "Leadership and personality grooming",
+      "Preparation for future challenges",
+      "Focus on patriotism, character, and confidence",
+      "Guidance for both military and civilian careers",
+    ],
+    parentsMessage:
+      "Parents play an important role in shaping a child’s future. Our counseling sessions also help parents understand their child’s strengths, interests, and suitable career paths so they can provide better support and guidance.",
+    mission:
+      "Our mission is to produce disciplined, confident, and responsible individuals who are prepared to lead, serve, and succeed. Through career counseling and mentorship, we help cadets discover their true potential and build a successful future for themselves and the nation.",
+    ctaLabel: "",
+    ctaHref: "",
   },
 
   "cadet-life-in-our-campus": {
     title: "Cadet Life at Our Campus",
-    subtitle: "Life at our cadet school is carefully structured to cultivate discipline, academic excellence, spiritual growth, and physical fitness.",
+    subtitle: "Life at our cadet school is carefully structured to cultivate discipline, academic growth, spiritual growth, and physical fitness.",
     overview:
-      "Life at our cadet school is carefully structured to cultivate discipline, academic excellence, spiritual growth, and physical fitness. Each day follows a balanced routine that helps cadets develop the habits and character required to become confident, responsible, and well-rounded individuals.",
+      "Life at our cadet school is carefully structured to cultivate discipline, academic growth, spiritual growth, and physical fitness. Each day follows a balanced routine that helps cadets develop the habits and character required to become confident, responsible, and well-rounded individuals.",
     sectionIntro:
       "The daily routine and activity programme are designed to support cadets academically, physically, spiritually, and socially, preparing them to excel in education and lead with integrity.",
     highlights: [
@@ -572,7 +615,7 @@ export const infoPages: Record<string, InfoPageContent> = {
     title: "Privacy Policy",
     subtitle: "How the college collects, uses, and protects visitor information.",
     overview:
-      "Bahar Cadet School uses its website with a commitment to transparency, responsible data handling, and appropriate protection of user information.",
+      "Basic Concept School uses its website with a commitment to transparency, responsible data handling, and appropriate protection of user information.",
     sectionIntro:
       "This policy page mirrors the reference site's intent: explain what data is collected, how it is used, and what protections are in place.",
     highlights: ["Data collection", "Secure handling", "Policy updates"],

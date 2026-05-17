@@ -38,7 +38,7 @@ const MissionMotto = () => {
 
         <div>
           <h3 className="text-xl md:text-2xl font-black font-lufga text-black uppercase tracking-wide mb-3">
-            Why Choose Bahar Cadet School (BCS)?
+            Why Choose Basic Concept School (BCS)?
           </h3>
           <ul className="grid grid-cols-1 gap-y-2 text-black text-sm md:text-base font-medium">
             <li>Unbeatable Results: Our success rate exceeds 90%.</li>

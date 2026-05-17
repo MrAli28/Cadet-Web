@@ -20,7 +20,7 @@ const JoinCTA = () => {
       <div className="bcs-overlay" />
       <div className="relative z-10 bcs-container text-center">
         <h2 className="text-3xl md:text-4xl font-bold text-primary-foreground font-lufga mb-6">
-          Contact <span className="text-bcs-gold">Bahar Cadet School</span>
+          Contact <span className="text-bcs-gold">Basic Concept School</span>
         </h2>
         <p className="text-primary-foreground/85 max-w-3xl mx-auto text-sm md:text-base leading-relaxed mb-8">
           We are committed to developing future leaders through disciplined education, physical training, and character

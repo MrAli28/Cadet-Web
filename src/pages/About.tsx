@@ -21,13 +21,13 @@ const About = () => {
         <div className="bcs-container space-y-8">
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
             <div className="lg:col-span-2 page-surface p-6 md:p-8">
-              <h2 className="text-2xl font-bold text-bcs-dark-text mb-4">About Bahar Cadet School</h2>
+              <h2 className="text-2xl font-bold text-bcs-dark-text mb-4">About Basic Concept School</h2>
               <p className="text-bcs-body-text mb-4">
-                Bahar Cadet School is focused on preparing students for highly competitive military college admissions
+                Basic Concept School is focused on preparing students for highly competitive military college admissions
                 through a disciplined and supportive learning environment.
               </p>
               <p className="text-bcs-body-text">
-                The institution combines academic excellence, character development, and physical readiness to build
+                The institution combines strong academics, character development, and physical readiness to build
                 confident and capable future leaders.
               </p>
             </div>

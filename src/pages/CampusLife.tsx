@@ -31,7 +31,7 @@ const CampusLife = () => {
         <div className="bcs-container space-y-12">
           <div className="text-center mb-6 max-w-3xl mx-auto">
             <h2 className="text-3xl font-bold text-bcs-dark-text font-lufga mb-4">Activities at Our Cadet School</h2>
-            <p className="text-bcs-body-text text-lg">At our cadet school, activities play a vital role in the overall development of each student. Beyond academic excellence, we provide a wide range of co-curricular and extracurricular activities designed to build leadership, confidence, discipline, and teamwork.</p>
+            <p className="text-bcs-body-text text-lg">At our cadet school, activities play a vital role in the overall development of each student. Beyond academics, we provide a wide range of co-curricular and extracurricular activities designed to build leadership, confidence, discipline, and teamwork.</p>
           </div>
 
           {/* Academic Activities */}

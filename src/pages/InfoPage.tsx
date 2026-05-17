@@ -115,6 +115,144 @@ const InfoPage = () => {
     );
   }
 
+  if (pageId === "career-counseling") {
+    return (
+      <div className="page-block">
+        <PageBanner title={page.title} subtitle={page.subtitle} />
+        <section className="py-14 bg-bcs-light-gray">
+          <div className="bcs-container">
+            <article className="page-surface p-6 md:p-8 space-y-6 max-w-4xl">
+              {page.overview && <p className="text-bcs-body-text leading-relaxed">{page.overview}</p>}
+
+              {page.sectionIntro && (
+                <div>
+                  <h3 className="text-xl font-bold text-bcs-dark-text">Why Career Counseling Matters</h3>
+                  {page.sectionIntro.split("\n\n").map((p: string, idx: number) => (
+                    <p key={idx} className="text-bcs-body-text leading-relaxed">
+                      {p}
+                    </p>
+                  ))}
+                </div>
+              )}
+
+              {page.highlights && page.highlights.length > 0 && (
+                <div>
+                  <h4 className="text-lg font-semibold text-bcs-dark-text">Career Counseling Helps Students:</h4>
+                  <ul className="list-disc pl-5 mt-2 space-y-1 text-bcs-body-text">
+                    {page.highlights.map((h: string) => (
+                      <li key={h}>{h}</li>
+                    ))}
+                  </ul>
+                </div>
+              )}
+
+              {page.services && page.services.length > 0 && (
+                <div>
+                  <h4 className="text-lg font-semibold text-bcs-dark-text">Our Career Counseling Services</h4>
+                  <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-4">
+                    {page.services.map((s: any) => (
+                      <article key={s.title} className="bg-background border border-black/5 rounded-sm p-4">
+                        <h5 className="font-bold text-bcs-dark-text">{s.title}</h5>
+                        <p className="text-bcs-body-text mt-2">{s.description}</p>
+                      </article>
+                    ))}
+                  </div>
+                </div>
+              )}
+
+              {page.futureCareers && page.futureCareers.length > 0 && (
+                <div>
+                  <h4 className="text-lg font-semibold text-bcs-dark-text">Future Career Planning</h4>
+                  <p className="text-bcs-body-text mt-2">We help students explore modern and high-demand careers including:</p>
+                  <ul className="flex flex-wrap gap-2 mt-3">
+                    {page.futureCareers.map((c: string) => (
+                      <li key={c} className="px-3 py-1 bg-white border rounded-sm text-sm text-bcs-body-text">{c}</li>
+                    ))}
+                  </ul>
+                </div>
+              )}
+
+              {page.approach && (
+                <div>
+                  <h4 className="text-lg font-semibold text-bcs-dark-text">Our Approach</h4>
+                  <ul className="list-disc pl-5 mt-2 space-y-1 text-bcs-body-text">
+                    {page.approach.map((a: string) => (
+                      <li key={a}>{a}</li>
+                    ))}
+                  </ul>
+                </div>
+              )}
+
+              {page.benefits && (
+                <div>
+                  <h4 className="text-lg font-semibold text-bcs-dark-text">Benefits for Students</h4>
+                  <ul className="list-none pl-0 mt-2 space-y-2 text-bcs-body-text">
+                    {page.benefits.map((b: string) => (
+                      <li key={b} className="flex items-center gap-3">
+                        <span className="text-bcs-green">✔</span>
+                        <span>{b}</span>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              )}
+
+                {page.mission && (
+                  <div className="page-surface p-4">
+                    <h4 className="text-lg font-semibold text-bcs-dark-text">Our Mission</h4>
+                    <p className="text-bcs-body-text mt-2">{page.mission}</p>
+                  </div>
+                )}
+
+              {page.parentsMessage && (
+                <div className="page-surface p-4">
+                  <h4 className="text-lg font-semibold text-bcs-dark-text">Message for Parents</h4>
+                  <p className="text-bcs-body-text mt-2">{page.parentsMessage}</p>
+                </div>
+              )}
+
+              {page.ctaLabel && (
+                <div className="mt-4">
+                  <Link to={page.ctaHref || "/contact"} className="bcs-btn-primary">
+                    {page.ctaLabel}
+                  </Link>
+                </div>
+              )}
+            </article>
+          </div>
+        </section>
+      </div>
+    );
+  }
+
+  if (pageId === "position-holders") {
+    return (
+      <div className="page-block">
+        <PageBanner title={page.title} subtitle={page.subtitle} />
+        <section className="py-14 bg-bcs-light-gray">
+          <div className="bcs-container">
+            <article className="page-surface p-6 md:p-8">
+              {page.overview && <p className="text-bcs-body-text leading-relaxed mb-6">{page.overview}</p>}
+
+              <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+                {(page.positionHolders || []).map((ph: any, idx: number) => (
+                  <article key={idx} className="text-center bg-white border rounded-sm p-4">
+                    <div className="h-44 w-full mb-3 overflow-hidden rounded-sm bg-gray-50">
+                      <img src={ph.image} alt={ph.name} className="w-full h-full object-cover" />
+                    </div>
+                    <h3 className="text-lg font-bold text-bcs-dark-text">{ph.name}</h3>
+                    <p className="text-sm text-bcs-body-text">{ph.position}</p>
+                    <p className="text-xs text-bcs-body-text/80 mt-1">{ph.course}</p>
+                  </article>
+                ))}
+              </div>
+            </article>
+          </div>
+        </section>
+      </div>
+    );
+  }
+
   if (pageId === "founder-principal") {
     return (
       <div className="page-block">
@@ -323,7 +461,7 @@ const InfoPage = () => {
                 <p className="text-xs uppercase tracking-[0.22em] font-bold text-bcs-green mb-3">Admission</p>
                 <h2 className="text-2xl md:text-3xl font-bold text-bcs-dark-text mb-3">Academic streams and subject combinations</h2>
                 <p className="text-bcs-body-text leading-relaxed">
-                  Bahar Cadet School (BCS) offers subject combinations that allow cadets to move toward medicine,
+                  Basic Concept School (BCS) offers subject combinations that allow cadets to move toward medicine,
                   engineering, computer science, and humanities pathways with the right academic balance.
                 </p>
               </div>
@@ -429,14 +567,14 @@ const InfoPage = () => {
                 <div>
                   <h2 className="text-2xl font-bold text-bcs-dark-text mb-3">Aims:</h2>
                   <p className="text-bcs-body-text leading-relaxed">
-                    To cultivate intellectually robust, morally upright, and physically fit individuals who embody excellence in academics, character, discipline, and leadership. Bahar Cadet School aspires to shape its students into 21st century global leaders, university-ready, life-ready, and committed to serving Pakistan and humanity with integrity, courage and purpose.
+                    To cultivate intellectually robust, morally upright, and physically fit individuals who embody excellence in academics, character, discipline, and leadership. Basic Concept School aspires to shape its students into 21st century global leaders, university-ready, life-ready, and committed to serving Pakistan and humanity with integrity, courage and purpose.
                   </p>
                 </div>
 
                 <div>
                   <h2 className="text-2xl font-bold text-bcs-dark-text mb-4">Objectives:</h2>
                   <ul className="space-y-3 list-disc list-inside text-bcs-body-text">
-                    <li><strong>Academic Excellence:</strong> To provide high-quality, globally benchmarked education that fosters critical thinking, creativity, and problem-solving in line with national and international standards.</li>
+                    <li><strong>Quality Education:</strong> To provide high-quality, globally benchmarked education that fosters critical thinking, creativity, and problem-solving in line with national and international standards.</li>
                     <li><strong>Leadership Development:</strong> To instill leadership qualities and a strong sense of responsibility through structured training, student governance, and co-curricular engagement.</li>
                     <li><strong>Character Building:</strong> To promote integrity, resilience, humility, and respect for diversity through a values-driven environment grounded in universal principles.</li>
                     <li><strong>Physical and Mental Wellbeing:</strong> To ensure the physical fitness and mental resilience of cadets through a balanced regimen of sports, military drills, outdoor training, and wellness programs.</li>
@@ -454,7 +592,7 @@ const InfoPage = () => {
                   <h2 className="text-2xl font-bold text-bcs-dark-text mb-4">Campus Virtual Tour</h2>
                   <div className="space-y-4 text-bcs-body-text leading-relaxed">
                     <p>
-                      Bahar Cadet School is spread over more than 100 acres. It is bounded in the North by the Grand Trunk Road, presently called National Highway 5, which separates it from the historical city of Hassan Abdal which also covers its eastern area. To the South is the Haro River which is overlooked by a range of hills that provide a scenic background to the campus. The western fringe of the College, once vast open fields, are now rapidly being converted into housing schemes.
+                      Basic Concept School is spread over more than 100 acres. It is bounded in the North by the Grand Trunk Road, presently called National Highway 5, which separates it from the historical city of Hassan Abdal which also covers its eastern area. To the South is the Haro River which is overlooked by a range of hills that provide a scenic background to the campus. The western fringe of the College, once vast open fields, are now rapidly being converted into housing schemes.
                     </p>
                     
                     <p>
@@ -484,7 +622,7 @@ const InfoPage = () => {
 
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <div className="page-surface p-6 space-y-3">
-                  <h3 className="text-lg font-bold text-bcs-dark-text">Academic Excellence</h3>
+                  <h3 className="text-lg font-bold text-bcs-dark-text">Academic Programs</h3>
                   <p className="text-sm text-bcs-body-text">
                     We provide a strong academic foundation from an early age to prepare students for future success in military and cadet institutions. Our qualified and experienced teachers focus on concept-based learning, discipline, and continuous academic improvement.
                   </p>
