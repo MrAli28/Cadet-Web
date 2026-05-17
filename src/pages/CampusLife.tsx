@@ -28,39 +28,82 @@ const CampusLife = () => {
       />
       
       <section className="py-16 bg-bcs-light-gray">
-        <div className="bcs-container space-y-16">
-          
-          {/* Daily Rhythm Section */}
-          <div>
-            <div className="text-center mb-10 max-w-2xl mx-auto">
-              <h2 className="text-3xl font-bold text-bcs-dark-text font-lufga mb-4">The Daily Rhythm</h2>
-              <p className="text-bcs-body-text text-lg">
-                Life at the college is meticulously planned to ensure a perfect balance between academics, physical fitness, and spiritual well-being.
-              </p>
-            </div>
+        <div className="bcs-container space-y-12">
+          <div className="text-center mb-6 max-w-3xl mx-auto">
+            <h2 className="text-3xl font-bold text-bcs-dark-text font-lufga mb-4">Activities at Our Cadet School</h2>
+            <p className="text-bcs-body-text text-lg">At our cadet school, activities play a vital role in the overall development of each student. Beyond academic excellence, we provide a wide range of co-curricular and extracurricular activities designed to build leadership, confidence, discipline, and teamwork.</p>
+          </div>
 
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-              {routineSchedule.map((schedule) => (
-                <div key={schedule.phase} className="bg-white rounded-sm shadow-sm border border-black/5 overflow-hidden group">
-                  <div className="bg-bcs-dark-navy p-6 flex flex-col items-center text-center">
-                    <div className="mb-3 group-hover:scale-110 transition-transform">
-                      {schedule.icon}
-                    </div>
-                    <h3 className="text-xl font-bold text-white font-lufga tracking-wider">{schedule.phase}</h3>
-                  </div>
-                  <div className="p-6">
-                    <ul className="space-y-4">
-                      {schedule.items.map((item, idx) => (
-                        <li key={idx} className="flex items-start gap-3 text-bcs-body-text text-sm font-semibold">
-                          <div className="w-1.5 h-1.5 rounded-full bg-bcs-green mt-1.5 flex-shrink-0" />
-                          <span>{item}</span>
-                        </li>
-                      ))}
-                    </ul>
-                  </div>
-                </div>
-              ))}
-            </div>
+          {/* Academic Activities */}
+          <div className="bg-white rounded-sm shadow-sm p-6">
+            <h3 className="text-xl font-bold text-bcs-dark-text mb-3">Academic Activities</h3>
+            <p className="mb-3 text-bcs-body-text">Cadets participate in:</p>
+            <ul className="list-disc list-inside space-y-2 text-bcs-body-text">
+              <li>Science exhibitions</li>
+              <li>Debates and speech competitions</li>
+              <li>Quiz contests</li>
+              <li>Essay writing competitions</li>
+              <li>Computer and STEM projects</li>
+            </ul>
+            <p className="mt-3 text-bcs-body-text">These activities encourage critical thinking, creativity, and effective communication.</p>
+          </div>
+
+          {/* Sports and Physical Activities */}
+          <div className="bg-white rounded-sm shadow-sm p-6">
+            <h3 className="text-xl font-bold text-bcs-dark-text mb-3">Sports and Physical Activities</h3>
+            <p className="mb-3 text-bcs-body-text">Physical fitness is an essential part of cadet life. Our cadets take part in:</p>
+            <ul className="list-disc list-inside space-y-2 text-bcs-body-text">
+              <li>Cricket</li>
+              <li>Football</li>
+              <li>Volleyball</li>
+              <li>Athletics</li>
+              <li>Physical training and drills</li>
+            </ul>
+            <p className="mt-3 text-bcs-body-text">Sports help develop endurance, teamwork, and a competitive spirit.</p>
+          </div>
+
+          {/* Religious and Character-Building Activities */}
+          <div className="bg-white rounded-sm shadow-sm p-6">
+            <h3 className="text-xl font-bold text-bcs-dark-text mb-3">Religious and Character-Building Activities</h3>
+            <p className="mb-3 text-bcs-body-text">To nurture strong moral values, cadets regularly participate in:</p>
+            <ul className="list-disc list-inside space-y-2 text-bcs-body-text">
+              <li>Daily congregational prayers</li>
+              <li>Nazra Quran</li>
+              <li>Islamic studies sessions</li>
+              <li>Character-building lectures</li>
+            </ul>
+            <p className="mt-3 text-bcs-body-text">These activities strengthen spiritual growth and ethical conduct.</p>
+          </div>
+
+          {/* Leadership and Discipline Programs */}
+          <div className="bg-white rounded-sm shadow-sm p-6">
+            <h3 className="text-xl font-bold text-bcs-dark-text mb-3">Leadership and Discipline Programs</h3>
+            <p className="mb-3 text-bcs-body-text">Cadets are trained through:</p>
+            <ul className="list-disc list-inside space-y-2 text-bcs-body-text">
+              <li>Parade and drill practice</li>
+              <li>House competitions</li>
+              <li>Leadership workshops</li>
+              <li>Community service projects</li>
+            </ul>
+            <p className="mt-3 text-bcs-body-text">Such programs prepare students to take responsibility and lead with confidence.</p>
+          </div>
+
+          {/* Cultural and Recreational Activities */}
+          <div className="bg-white rounded-sm shadow-sm p-6">
+            <h3 className="text-xl font-bold text-bcs-dark-text mb-3">Cultural and Recreational Activities</h3>
+            <p className="mb-3 text-bcs-body-text">To promote creativity and self-expression, we organize:</p>
+            <ul className="list-disc list-inside space-y-2 text-bcs-body-text">
+              <li>Annual functions</li>
+              <li>Art and drawing competitions</li>
+              <li>National day celebrations</li>
+              <li>Educational tours and excursions</li>
+            </ul>
+          </div>
+
+          {/* Balanced Development Conclusion */}
+          <div className="bg-white rounded-sm shadow-sm p-6">
+            <h3 className="text-xl font-bold text-bcs-dark-text mb-3">A Balanced Development Approach</h3>
+            <p className="text-bcs-body-text">Our activity program ensures that cadets grow intellectually, physically, spiritually, and socially. Through these diverse experiences, students develop into disciplined, confident, and well-rounded individuals ready to meet future challenges.</p>
           </div>
 
         </div>
