@@ -243,12 +243,10 @@ export const infoPages: Record<string, InfoPageContent> = {
     overview: "This section recognises our highest achievers. Below are the latest position holders across classes and streams.",
     // previous detailed sections removed for restructuring; use `positionHolders` to render cards
     positionHolders: [
-      { name: "Cadet Ali Khan", position: "1st Position", course: "Matric - Computer", image: "/images/position-holder-1.jpg" },
-      { name: "Cadet Amina Noor", position: "2nd Position", course: "Matric - Biology", image: "/images/position-holder-2.jpg" },
-      { name: "Cadet Usman Riaz", position: "3rd Position", course: "Military Prep", image: "/images/position-holder-3.jpg" },
-      { name: "Cadet Sara Qureshi", position: "Top Performer", course: "AFNS Nursing Prep", image: "/images/position-holder-4.jpg" },
-      { name: "Cadet Hamza Iqbal", position: "Top Cadet", course: "ISSB Preparation", image: "/images/position-holder-5.jpg" },
-      { name: "Cadet Maria Khan", position: "Top Achiever", course: "Airwoman Entry Prep", image: "/images/position-holder-6.jpg" },
+      { name: "Rehan Safder", position: "Prominent Alumnus", course: "PAF College Lower Topa Murree", image: "/images/position-holder-1.jpg" },
+      { name: "Ali Hassan", position: "Prominent Alumnus", course: "Garrison Cadet College Kohat", image: "/images/position-holder-2.jpg" },
+      { name: "Feroz Ahmad", position: "Prominent Alumnus", course: "Garrison Cadet College Kohat", image: "/images/position-holder-3.jpg" },
+      { name: "Hasnain Afzal", position: "Prominent Alumnus", course: "Cadet College Wana", image: "/images/position-holder-4.jpg" },
     ],
     ctaLabel: "",
     ctaHref: "",

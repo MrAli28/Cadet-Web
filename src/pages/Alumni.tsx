@@ -8,13 +8,14 @@ const Alumni = () => {
         <div className="bcs-container space-y-10">
           <div>
             <h2 className="text-2xl font-bold text-bcs-dark-text mb-4">Our distinguished alumni</h2>
-            <p className="text-bcs-body-text mb-6">Celebrating the achievements of our graduates — below are a few of our alumni and their contributions. Click any profile to learn more.</p>
+            <p className="text-bcs-body-text mb-6">Celebrating the achievements of our graduates — below are a few of our prominent alumni and their contributions.</p>
 
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
               {[
-                { name: "Alumni Name 2", position: "Position", achievement: "Achievement", batch: "Batch" },
-                { name: "Alumni Name 3", position: "Position", achievement: "Achievement", batch: "Batch" },
-                { name: "Alumni Name 4", position: "Position", achievement: "Achievement", batch: "Batch" },
+                { name: "Rehan Safder", position: "Prominent Alumnus", achievement: "PAF College Lower Topa Murree", batch: "Position Holder" },
+                { name: "Ali Hassan", position: "Prominent Alumnus", achievement: "Garrison Cadet College Kohat", batch: "Position Holder" },
+                { name: "Feroz Ahmad", position: "Prominent Alumnus", achievement: "Garrison Cadet College Kohat", batch: "Position Holder" },
+                { name: "Hasnain Afzal", position: "Prominent Alumnus", achievement: "Cadet College Wana", batch: "Position Holder" },
               ].map((al, idx) => (
                 <article key={idx} className="page-surface p-4 text-center">
                   <div className="w-36 h-36 mx-auto rounded-full overflow-hidden bg-gray-100 flex items-center justify-center">
