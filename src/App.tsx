@@ -17,6 +17,8 @@ import Explore from "./pages/Explore";
 import InfoPage from "./pages/InfoPage";
 import CadetLifeInOurCampus from "./pages/CadetLifeInOurCampus";
 import NotFound from "./pages/NotFound";
+import AdminLogin from "./pages/AdminLogin";
+import AdminDashboard from "./pages/AdminDashboard";
 
 const queryClient = new QueryClient();
 
@@ -41,6 +43,8 @@ const App = () => (
             <Route path="/info/:pageId" element={<InfoPage />} />
             <Route path="/info/cadet-life-in-our-campus" element={<CadetLifeInOurCampus />} />
             <Route path="/foreword-by-the-principal" element={<Navigate to="/info/foreword-by-principal" replace />} />
+            <Route path="/admin" element={<AdminLogin />} />
+            <Route path="/admin/dashboard" element={<AdminDashboard />} />
           </Route>
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
